@@ -12,6 +12,11 @@ def save_json(
     path: Path,
     data,
 ) -> None:
+    """
+    Save Python data as formatted JSON.
+
+    Parent directories are created automatically.
+    """
 
     path.parent.mkdir(
         parents=True,
@@ -22,7 +27,6 @@ def save_json(
         "w",
         encoding="utf-8",
     ) as file:
-
         json.dump(
             data,
             file,
@@ -32,8 +36,16 @@ def save_json(
 
 
 def main():
+    # --------------------------------------------------
+    # COMMAND-LINE ARGUMENTS
+    # --------------------------------------------------
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description=(
+            "Collect a sample of engineering history "
+            "from a GitHub repository."
+        )
+    )
 
     parser.add_argument(
         "repository",
@@ -44,18 +56,35 @@ def main():
         "--sample-size",
         type=int,
         default=20,
+        help=(
+            "Number of issues and pull requests "
+            "to request from GitHub."
+        ),
     )
 
     args = parser.parse_args()
 
-    parts = args.repository.strip("/").split("/")
+    # --------------------------------------------------
+    # VALIDATE REPOSITORY NAME
+    # --------------------------------------------------
 
-    if len(parts) != 2:
+    repository_parts = (
+        args.repository
+        .strip("/")
+        .split("/")
+    )
+
+    if len(repository_parts) != 2:
         raise ValueError(
-            "Repository must use owner/repo format."
+            "Repository must use owner/repo format. "
+            "Example: backstage/backstage"
         )
 
-    owner, repo = parts
+    owner, repo = repository_parts
+
+    # --------------------------------------------------
+    # COLLECT DATA
+    # --------------------------------------------------
 
     collector = GitHubCollector()
 
@@ -65,61 +94,69 @@ def main():
         sample_size=args.sample_size,
     )
 
+    # --------------------------------------------------
+    # OUTPUT DIRECTORY
+    # --------------------------------------------------
+
     output_directory = (
         RAW_DATA_DIRECTORY
         / owner
         / repo
     )
 
+    # --------------------------------------------------
+    # RAW FILES TO SAVE
+    # --------------------------------------------------
+
     files_to_save = {
-    "repository/metadata.json":
-        dataset["repository"],
+        "repository/metadata.json":
+            dataset["repository"],
 
-    "issues/issues.json":
-        dataset["issues"],
+        "issues/issues.json":
+            dataset["issues"],
 
-    "issues/comments.json":
-        dataset["issue_comments"],
+        "issues/comments.json":
+            dataset["issue_comments"],
 
-    "issues/timelines.json":
-        dataset["issue_timelines"],
+        "issues/timelines.json":
+            dataset["issue_timelines"],
 
-    "pull_requests/pull_requests.json":
-        dataset["pull_requests"],
+        "pull_requests/pull_requests.json":
+            dataset["pull_requests"],
 
-    "pull_requests/comments.json":
-        dataset["pr_comments"],
+        "pull_requests/comments.json":
+            dataset["pr_comments"],
 
-    "pull_requests/commits.json":
-        dataset["pr_commits"],
+        "pull_requests/commits.json":
+            dataset["pr_commits"],
 
+        "documents/documents.json":
+            dataset["decision_documents"],
     }
+
+    # --------------------------------------------------
+    # SAVE RAW DATA
+    # --------------------------------------------------
 
     print("\nSaving raw GitHub data...")
 
-    for filename, data in files_to_save.items():
+    for relative_path, data in files_to_save.items():
 
-        save_json(
-            output_directory / filename,
-            data,
+        full_path = (
+            output_directory
+            / relative_path
         )
 
-        print(f"Saved {filename}")
+        save_json(
+            path=full_path,
+            data=data,
+        )
 
-    print("\nDATASET SUMMARY")
-    print("-" * 50)
+        print(f"Saved {relative_path}")
 
-    print(f"Repository: {owner}/{repo}")
-
-    print(
-        f"Issues collected: "
-        f"{len(dataset['issues'])}"
-    )
-
-    print(
-        f"Pull requests collected: "
-        f"{len(dataset['pull_requests'])}"
-    )
+    # --------------------------------------------------
+    # CALCULATE DATASET STATISTICS
+    # --------------------------------------------------
 
     total_issue_comments = sum(
         len(comments)
@@ -145,10 +182,52 @@ def main():
         in dataset["pr_commits"].values()
     )
 
-    print(f"Issue comments: {total_issue_comments}")
-    print(f"Timeline events: {total_timeline_events}")
-    print(f"PR discussion comments: {total_pr_comments}")
-    print(f"PR commits: {total_pr_commits}")
+    # --------------------------------------------------
+    # DATASET SUMMARY
+    # --------------------------------------------------
+
+    print("\nDATASET SUMMARY")
+    print("-" * 50)
+
+    print(
+        f"Repository: "
+        f"{dataset['repository']['full_name']}"
+    )
+
+    print(
+        f"Issues collected: "
+        f"{len(dataset['issues'])}"
+    )
+
+    print(
+        f"Pull requests collected: "
+        f"{len(dataset['pull_requests'])}"
+    )
+
+    print(
+        f"Issue comments: "
+        f"{total_issue_comments}"
+    )
+
+    print(
+        f"Timeline events: "
+        f"{total_timeline_events}"
+    )
+
+    print(
+        f"PR discussion comments: "
+        f"{total_pr_comments}"
+    )
+
+    print(
+        f"PR commits: "
+        f"{total_pr_commits}"
+    )
+
+    print(
+        f"Decision documents: "
+        f"{len(dataset['decision_documents'])}"
+    )
 
     print(
         f"\nRaw data saved to: "

@@ -1,10 +1,40 @@
+# Environment variables and secrets
 .env
-.venv/
-__pycache__/
-*.pyc
+.env.*
+!.env.example
 
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Testing and development caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# DecisionDNA generated datasets
 data/raw/
 data/normalized/
 data/candidates/
 data/decisions/
 data/lifecycles/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/

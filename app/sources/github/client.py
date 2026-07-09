@@ -82,29 +82,66 @@ class GitHubClient:
         per_page: int = 20,
     ) -> list[dict]:
         """
-        Fetch issues.
+        Fetch the requested number of real GitHub issues.
 
         IMPORTANT:
-        GitHub's Issues endpoint also returns pull requests.
+        GitHub's repository Issues endpoint returns both issues
+        and pull requests.
 
-        Items containing the "pull_request" field are removed.
+        This method:
+
+        1. Fetches GitHub API pages.
+        2. Removes pull requests.
+        3. Continues fetching pages until the requested number
+           of real issues has been collected.
+        4. Stops if GitHub has no more results.
         """
 
-        data = self._get(
-            f"/repos/{owner}/{repo}/issues",
-            params={
-                "state": state,
-                "per_page": per_page,
-                "sort": "updated",
-                "direction": "desc",
-            },
-        )
+        collected_issues = []
 
-        return [
-            item
-            for item in data
-            if "pull_request" not in item
-        ]
+        page = 1
+
+        # GitHub allows at most 100 records per API page.
+        github_page_size = 100
+
+        while len(collected_issues) < per_page:
+
+            data = self._get(
+                f"/repos/{owner}/{repo}/issues",
+                params={
+                    "state": state,
+                    "per_page": github_page_size,
+                    "page": page,
+                    "sort": "updated",
+                    "direction": "desc",
+                },
+            )
+
+            # No results means we reached the end
+            # of the repository's issue history.
+            if not data:
+                break
+
+            real_issues = [
+                item
+                for item in data
+                if "pull_request" not in item
+            ]
+
+            collected_issues.extend(real_issues)
+
+            # If GitHub returned fewer than the requested
+            # API page size, this was the final page.
+            if len(data) < github_page_size:
+                break
+
+            page += 1
+
+        # We may collect more than requested because one API
+        # page can contain multiple real issues.
+        #
+        # Return exactly the requested number.
+        return collected_issues[:per_page]
 
     def get_pull_requests(
         self,
@@ -214,3 +251,44 @@ class GitHubClient:
                 "per_page": per_page,
             },
         )
+
+    def get_repository_tree(
+        self,
+        owner: str,
+        repo: str,
+    ) -> dict:
+        """
+        Fetch the complete Git tree for the repository's default branch.
+
+        recursive=1 asks GitHub to return nested files/directories.
+        """
+
+        repository = self.get_repository(
+            owner=owner,
+            repo=repo,
+        )
+
+        default_branch = repository["default_branch"]
+
+        return self._get(
+            f"/repos/{owner}/{repo}/git/trees/{default_branch}",
+            params={
+                "recursive": "1",
+            },
+        )
+
+    def get_file_content(
+        self,
+        owner: str,
+        repo: str,
+        path: str,
+    ) -> dict:
+        """
+        Fetch one file from the repository.
+
+        GitHub's Contents API returns metadata plus Base64-encoded content.
+        """
+
+        return self._get(
+            f"/repos/{owner}/{repo}/contents/{path}"
+        )
