@@ -8,7 +8,7 @@ class KubernetesClient:
     Client for Kubernetes deployment actions and CI/CD pipelines. Simulates fetching deployment events.
     """
     def __init__(self, data_path: Path | str | None = None):
-        self.data_path = Path(data_path or "D:/dataset generator/OrgMemory-10K/deployments/deployments.json")
+        self.data_path = Path(data_path or Path(__file__).resolve().parents[3] / "OrgMemory-10K/deployments/deployments.json")
 
     def get_deployments(self) -> List[Dict[str, Any]]:
         """

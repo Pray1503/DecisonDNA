@@ -8,7 +8,7 @@ class SlackClient:
     Client for Slack. Simulates fetching channel messages and retro chats from developer feedback.
     """
     def __init__(self, data_path: Path | str | None = None):
-        self.data_path = Path(data_path or "D:/dataset generator/OrgMemory-10K/feedback/developer_feedback.json")
+        self.data_path = Path(data_path or Path(__file__).resolve().parents[3] / "OrgMemory-10K/feedback/developer_feedback.json")
 
     def get_messages(self) -> List[Dict[str, Any]]:
         """

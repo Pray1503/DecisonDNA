@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Dna, Brain, BarChart3, Zap } from "lucide-react";
 import { BackgroundAnimation } from "@/components/auth/background-animation";
@@ -33,6 +35,7 @@ const VALUE_CARDS = [
 ];
 
 export default function LoginPage() {
+  const router = useRouter();
   const {
     state,
     form,
@@ -42,6 +45,13 @@ export default function LoginPage() {
     updateField,
     handleSubmit,
   } = useLogin();
+
+  // Navigate to dashboard when login flow completes
+  useEffect(() => {
+    if (state === "redirect") {
+      router.push("/dashboard");
+    }
+  }, [state, router]);
 
   return (
     <>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import {
   Brain,
@@ -29,19 +29,38 @@ const FLOATING_ICONS = [
 ];
 
 function Particles() {
+  const [particles, setParticles] = useState<
+    { w: number; left: number; top: number; r: number; g: number; a: number; dur: number; delay: number }[]
+  >([]);
+
+  useEffect(() => {
+    setParticles(
+      Array.from({ length: 30 }, () => ({
+        w: Math.random() * 3 + 1,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        r: 139 + Math.random() * 60,
+        g: 92 + Math.random() * 80,
+        a: 0.2 + Math.random() * 0.3,
+        dur: 10 + Math.random() * 10,
+        delay: Math.random() * 8,
+      }))
+    );
+  }, []);
+
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {Array.from({ length: 30 }).map((_, i) => (
+      {particles.map((p, i) => (
         <div
           key={i}
           className="absolute rounded-full"
           style={{
-            width: `${Math.random() * 3 + 1}px`,
-            height: `${Math.random() * 3 + 1}px`,
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            background: `rgba(${139 + Math.random() * 60}, ${92 + Math.random() * 80}, ${246}, ${0.2 + Math.random() * 0.3})`,
-            animation: `particle-drift ${10 + Math.random() * 10}s linear ${Math.random() * 8}s infinite`,
+            width: `${p.w}px`,
+            height: `${p.w}px`,
+            left: `${p.left}%`,
+            top: `${p.top}%`,
+            background: `rgba(${p.r}, ${p.g}, 246, ${p.a})`,
+            animation: `particle-drift ${p.dur}s linear ${p.delay}s infinite`,
           }}
         />
       ))}

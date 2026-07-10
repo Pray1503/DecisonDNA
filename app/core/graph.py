@@ -109,6 +109,71 @@ class EvidenceGraph:
 
         return nodes_loaded, edges_loaded
 
+    def load_from_db(self, db_path: Path) -> Tuple[int, int]:
+        """
+        Load artifacts and relationships directly from SQLite database.
+        """
+        if not db_path.exists():
+            print(f"WARNING: Database file {db_path} does not exist.")
+            return 0, 0
+
+        import sqlite3
+        nodes_loaded = 0
+        edges_loaded = 0
+
+        try:
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            cursor = conn.cursor()
+
+            # Load artifacts
+            cursor.execute("SELECT * FROM artifacts")
+            for row in cursor.fetchall():
+                try:
+                    artifact = Artifact(
+                        artifact_id=row["artifact_id"],
+                        source=row["source"],
+                        source_type=row["source_type"],
+                        external_id=row["external_id"],
+                        title=row["title"],
+                        content=row["content"],
+                        author=row["author"],
+                        timestamps=json.loads(row["timestamps"] or "{}"),
+                        url=row["url"],
+                        context=json.loads(row["context"] or "{}"),
+                        metadata=json.loads(row["metadata"] or "{}"),
+                        provenance=json.loads(row["provenance"] or "{}"),
+                    )
+                    self.add_artifact(artifact)
+                    nodes_loaded += 1
+                except Exception as e:
+                    print(f"Error parsing database artifact: {e}")
+
+            # Load relationships
+            cursor.execute("SELECT * FROM relationships")
+            for row in cursor.fetchall():
+                try:
+                    relationship = Relationship(
+                        relationship_id=row["relationship_id"],
+                        source_id=row["source_id"],
+                        target_id=row["target_id"],
+                        relationship_type=row["relationship_type"],
+                        confidence=row["confidence"],
+                        reasoning=row["reasoning"],
+                        evidence=json.loads(row["evidence"] or "{}"),
+                        provenance=json.loads(row["provenance"] or "{}"),
+                    )
+                    self.add_relationship(relationship)
+                    edges_loaded += 1
+                except Exception as e:
+                    print(f"Error parsing database relationship: {e}")
+
+            conn.close()
+        except Exception as e:
+            print(f"Error loading graph from database: {e}")
+
+        return nodes_loaded, edges_loaded
+
     def get_artifact(self, artifact_id: str) -> Optional[Artifact]:
         """
         Retrieve Artifact object by its ID.

@@ -17,6 +17,7 @@ class LLMProvider:
         self.gemini_key = os.getenv("GEMINI_API_KEY")
         self.groq_key = os.getenv("GROQ_API_KEY")
         self.openai_key = os.getenv("OPENAI_API_KEY")
+        self.groq_model = os.getenv("GROQ_MODEL", "llama3-8b-8192")
 
         if self.gemini_key:
             print("LLMProvider: Initialized with Google Gemini API.")
@@ -37,15 +38,16 @@ class LLMProvider:
         linked to the same engineering decision.
         """
         prompt = self._build_prompt(adr, artifact)
-
-        if self.gemini_key:
-            return self._call_gemini(prompt)
-        elif self.groq_key:
-            return self._call_groq(prompt)
-        elif self.openai_key:
-            return self._call_openai(prompt)
-        else:
-            return self._smart_mock_evaluation(adr, artifact)
+        try:
+            if self.gemini_key:
+                return self._call_gemini(prompt)
+            elif self.groq_key:
+                return self._call_groq(prompt)
+            elif self.openai_key:
+                return self._call_openai(prompt)
+        except Exception as e:
+            print(f"LLM API call failed: {e}. Falling back to mock evaluation.")
+        return self._smart_mock_evaluation(adr, artifact)
 
     def _build_prompt(self, adr: Dict[str, Any], art: Dict[str, Any]) -> str:
         return f"""You are a senior software architect analyzing the relationship between two engineering artifacts to reconstruct technical decisions.
@@ -89,8 +91,8 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
             text = data["candidates"][0]["content"]["parts"][0]["text"]
             return self._clean_and_parse_json(text)
         except Exception as e:
-            print(f"Gemini API call failed: {e}. Falling back to mock.")
-            return self._smart_mock_evaluation(prompt)
+            print(f"Gemini API call failed: {e}.")
+            raise e
 
     def _call_groq(self, prompt: str) -> Dict[str, Any]:
         url = "https://api.groq.com/openai/v1/chat/completions"
@@ -99,7 +101,7 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
             "Content-Type": "application/json",
         }
         payload = {
-            "model": "llama3-8b-8192",
+            "model": self.groq_model,
             "messages": [{"role": "user", "content": prompt}],
             "response_format": {"type": "json_object"},
             "temperature": 0.1,
@@ -111,8 +113,8 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
             text = data["choices"][0]["message"]["content"]
             return self._clean_and_parse_json(text)
         except Exception as e:
-            print(f"Groq API call failed: {e}. Falling back to mock.")
-            return self._smart_mock_evaluation(prompt)
+            print(f"Groq API call failed: {e}.")
+            raise e
 
     def _call_openai(self, prompt: str) -> Dict[str, Any]:
         url = "https://api.openai.com/v1/chat/completions"
@@ -133,8 +135,8 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
             text = data["choices"][0]["message"]["content"]
             return self._clean_and_parse_json(text)
         except Exception as e:
-            print(f"OpenAI API call failed: {e}. Falling back to mock.")
-            return self._smart_mock_evaluation(prompt)
+            print(f"OpenAI API call failed: {e}.")
+            raise e
 
     def _clean_and_parse_json(self, text: str) -> Dict[str, Any]:
         """
@@ -230,14 +232,16 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
         """
         if self.gemini_key or self.groq_key or self.openai_key:
             prompt = self._build_reconstruction_prompt(adr, cluster_text)
-            if self.gemini_key:
-                return self._call_gemini(prompt)
-            elif self.groq_key:
-                return self._call_groq(prompt)
-            else:
-                return self._call_openai(prompt)
-        else:
-            return self._smart_mock_reconstruction(adr, connected_artifacts)
+            try:
+                if self.gemini_key:
+                    return self._call_gemini(prompt)
+                elif self.groq_key:
+                    return self._call_groq(prompt)
+                else:
+                    return self._call_openai(prompt)
+            except Exception as e:
+                print(f"LLM API call failed: {e}. Falling back to mock reconstruction.")
+        return self._smart_mock_reconstruction(adr, connected_artifacts)
 
     def _build_reconstruction_prompt(self, adr: Dict[str, Any], cluster_text: str) -> str:
         return f"""You are a senior software architect reconstructing an engineering decision by combining the architectural design record (ADR) with all downstream implementation evidence.
@@ -341,4 +345,73 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
             "lessons": lessons,
             "confidence": 0.95,
         }
+
+    def generate_text(self, prompt: str) -> str:
+        """
+        Generate raw, non-JSON free-form text response from the active LLM provider.
+        """
+        if self.gemini_key:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.gemini_key}"
+            headers = {"Content-Type": "application/json"}
+            payload = {
+                "contents": [{"parts": [{"text": prompt}]}]
+            }
+            try:
+                response = requests.post(url, json=payload, headers=headers, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+            except Exception as e:
+                print(f"Gemini generate_text failed: {e}")
+
+        elif self.groq_key:
+            url = "https://api.groq.com/openai/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {self.groq_key}",
+                "Content-Type": "application/json",
+            }
+            payload = {
+                "model": self.groq_model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7,
+            }
+            try:
+                response = requests.post(url, json=payload, headers=headers, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                return data["choices"][0]["message"]["content"].strip()
+            except Exception as e:
+                print(f"Groq generate_text failed: {e}")
+
+        elif self.openai_key:
+            url = "https://api.openai.com/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {self.openai_key}",
+                "Content-Type": "application/json",
+            }
+            payload = {
+                "model": "gpt-4o-mini",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7,
+            }
+            try:
+                response = requests.post(url, json=payload, headers=headers, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                return data["choices"][0]["message"]["content"].strip()
+            except Exception as e:
+                print(f"OpenAI generate_text failed: {e}")
+
+        # Local conversational fallback
+        p_lower = prompt.lower()
+        if any(w in p_lower for w in ["hello", "hi", "hey", "greetings", "good morning", "good afternoon"]):
+            return "Hello! I am your DecisionDNA AI assistant. How can I help you trace architectural decisions or explore engineering evidence today?"
+        elif any(w in p_lower for w in ["who are you", "what is your name", "identify yourself"]):
+            return "I am DecisionDNA AI, a decision intelligence agent trained to trace technical architectural decisions across your developer ecosystem."
+        else:
+            return (
+                "Hello! I am your DecisionDNA AI assistant. I couldn't find any direct architectural decisions "
+                "or evidence matching your query. Could you please specify a project name, database technology (e.g. Redis, SQS), "
+                "or incident ID you'd like me to trace?"
+            )
 

@@ -8,7 +8,7 @@ class DatadogClient:
     Client for Datadog alerts and incident logs. Simulates fetching incidents.
     """
     def __init__(self, data_path: Path | str | None = None):
-        self.data_path = Path(data_path or "D:/dataset generator/OrgMemory-10K/incidents/incidents.json")
+        self.data_path = Path(data_path or Path(__file__).resolve().parents[3] / "OrgMemory-10K/incidents/incidents.json")
 
     def get_incidents(self) -> List[Dict[str, Any]]:
         """

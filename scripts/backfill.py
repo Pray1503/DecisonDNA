@@ -28,7 +28,7 @@ from app.core.memory import DecisionMemory
 
 
 def main():
-    dataset_dir = Path("D:/dataset generator/OrgMemory-10K")
+    dataset_dir = Path(__file__).parent.parent / "OrgMemory-10K"
     db_file = Path("data/decision_memory.db")
 
     if not dataset_dir.exists():

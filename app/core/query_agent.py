@@ -19,7 +19,10 @@ class QueryAgent:
     ):
         self.memory = DecisionMemory(db_path=db_path)
         self.graph = EvidenceGraph()
-        self.graph.load_from_files(artifacts_path, relationships_path)
+        if artifacts_path.exists() and relationships_path.exists():
+            self.graph.load_from_files(artifacts_path, relationships_path)
+        else:
+            self.graph.load_from_db(db_path)
 
     def query(self, user_query: str) -> str:
         """
