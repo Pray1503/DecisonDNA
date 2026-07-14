@@ -1,0 +1,611 @@
+ticket_id,subject,status,product,created_date,linked_incident,customer_id
+SUP-0001,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2022-11-10,,CST-0001
+SUP-0002,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2023-09-29,,CST-0002
+SUP-0003,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2022-07-04,,CST-0002
+SUP-0004,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2023-04-04,,CST-0002
+SUP-0005,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,NovaCommerce,2023-11-11,,CST-0002
+SUP-0006,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,NovaCommerce,2025-03-13,,CST-0003
+SUP-0007,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2024-01-07,,CST-0004
+SUP-0008,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2021-01-01,,CST-0004
+SUP-0009,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2024-05-07,,CST-0005
+SUP-0010,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2023-01-07,,CST-0005
+SUP-0011,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2022-02-21,,CST-0005
+SUP-0012,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2024-08-19,,CST-0005
+SUP-0013,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2021-10-05,,CST-0005
+SUP-0014,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-06-20,,CST-0006
+SUP-0015,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2022-08-03,,CST-0006
+SUP-0016,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2022-05-28,,CST-0006
+SUP-0017,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2024-01-23,,CST-0006
+SUP-0018,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2024-08-17,,CST-0007
+SUP-0019,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2024-11-27,,CST-0007
+SUP-0020,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2023-01-25,,CST-0007
+SUP-0021,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2022-12-22,,CST-0008
+SUP-0022,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2024-05-09,,CST-0008
+SUP-0023,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2023-07-05,,CST-0008
+SUP-0024,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2025-05-21,,CST-0009
+SUP-0025,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,InsightCRM,2022-12-23,,CST-0009
+SUP-0026,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2024-10-03,,CST-0009
+SUP-0027,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2023-06-10,,CST-0009
+SUP-0028,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2025-07-01,,CST-0009
+SUP-0029,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,AtlasPay,2024-10-05,,CST-0010
+SUP-0030,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2022-12-21,,CST-0011
+SUP-0031,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2023-01-18,,CST-0011
+SUP-0032,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,InsightCRM,2021-03-25,,CST-0012
+SUP-0033,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2023-11-27,,CST-0012
+SUP-0034,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2025-03-12,,CST-0013
+SUP-0035,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2025-03-22,,CST-0014
+SUP-0036,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-09-19,,CST-0014
+SUP-0037,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2022-02-28,,CST-0014
+SUP-0038,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2025-04-18,,CST-0015
+SUP-0039,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2025-05-06,,CST-0015
+SUP-0040,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2022-04-03,,CST-0015
+SUP-0041,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2023-05-31,,CST-0015
+SUP-0042,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2022-03-31,,CST-0016
+SUP-0043,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2025-11-29,,CST-0016
+SUP-0044,System Error: Routing loop in Istio service mesh for insightcrm-api affecting our operations.,Closed,InsightCRM,2021-10-28,INC-0258,CST-0016
+SUP-0045,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2025-04-21,,CST-0016
+SUP-0046,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2021-12-04,,CST-0017
+SUP-0047,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2021-12-04,,CST-0017
+SUP-0048,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2024-03-25,,CST-0017
+SUP-0049,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2024-12-06,,CST-0017
+SUP-0050,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2022-11-09,,CST-0017
+SUP-0051,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2024-01-25,,CST-0018
+SUP-0052,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-04-20,,CST-0018
+SUP-0053,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,CloudSync,2025-10-03,,CST-0018
+SUP-0054,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2021-04-27,,CST-0018
+SUP-0055,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,VisionAI,2023-07-31,,CST-0019
+SUP-0056,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2025-09-12,,CST-0019
+SUP-0057,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2023-11-08,,CST-0020
+SUP-0058,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-01-15,,CST-0020
+SUP-0059,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Open,NovaCommerce,2023-12-22,,CST-0020
+SUP-0060,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2023-10-13,,CST-0020
+SUP-0061,System Error: Database connection pool exhaustion on cloudsync-storage affecting our operations.,Closed,CloudSync,2021-06-08,INC-0141,CST-0021
+SUP-0062,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Open,FusionERP,2024-06-22,,CST-0022
+SUP-0063,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2021-07-08,,CST-0022
+SUP-0064,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2024-05-22,,CST-0022
+SUP-0065,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2022-10-01,,CST-0023
+SUP-0066,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2022-11-04,,CST-0023
+SUP-0067,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2023-09-25,,CST-0023
+SUP-0068,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2021-06-03,,CST-0023
+SUP-0069,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2024-07-08,,CST-0024
+SUP-0070,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2024-09-22,,CST-0024
+SUP-0071,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2022-02-02,,CST-0024
+SUP-0072,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2023-06-18,,CST-0024
+SUP-0073,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,CloudSync,2024-11-26,,CST-0024
+SUP-0074,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2021-11-14,,CST-0025
+SUP-0075,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2022-08-29,,CST-0026
+SUP-0076,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2022-11-27,,CST-0026
+SUP-0077,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2021-12-21,,CST-0027
+SUP-0078,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2024-07-15,,CST-0027
+SUP-0079,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2024-10-27,,CST-0028
+SUP-0080,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2023-05-08,,CST-0029
+SUP-0081,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2023-03-03,,CST-0029
+SUP-0082,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2024-06-07,,CST-0029
+SUP-0083,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2022-03-13,,CST-0029
+SUP-0084,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2022-08-17,,CST-0029
+SUP-0085,System Error: Cache stampede in cloudsync-desktop for metadata queries affecting our operations.,Closed,CloudSync,2021-09-07,INC-0211,CST-0030
+SUP-0086,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2025-10-21,,CST-0030
+SUP-0087,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2024-06-11,,CST-0030
+SUP-0088,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2023-01-26,,CST-0030
+SUP-0089,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2021-05-30,,CST-0030
+SUP-0090,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2023-08-07,,CST-0031
+SUP-0091,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2025-10-30,,CST-0031
+SUP-0092,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2023-06-28,,CST-0031
+SUP-0093,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2025-12-03,,CST-0031
+SUP-0094,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2025-09-20,,CST-0032
+SUP-0095,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2024-05-16,,CST-0032
+SUP-0096,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2023-10-24,,CST-0033
+SUP-0097,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2025-05-13,,CST-0033
+SUP-0098,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2023-08-14,,CST-0034
+SUP-0099,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2022-02-03,,CST-0034
+SUP-0100,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,VisionAI,2022-05-23,,CST-0034
+SUP-0101,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2024-11-17,,CST-0034
+SUP-0102,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,NovaCommerce,2021-07-11,,CST-0035
+SUP-0103,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2025-01-20,,CST-0035
+SUP-0104,System Error: Unoptimized query on novacommerce-cart database after release affecting our operations.,Closed,NovaCommerce,2021-07-21,INC-0165,CST-0035
+SUP-0105,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2022-11-13,,CST-0035
+SUP-0106,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2024-01-01,,CST-0036
+SUP-0107,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2021-10-09,,CST-0037
+SUP-0108,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2021-09-20,,CST-0037
+SUP-0109,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2021-01-02,,CST-0037
+SUP-0110,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2022-11-12,,CST-0037
+SUP-0111,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2023-07-28,,CST-0037
+SUP-0112,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2025-03-12,,CST-0038
+SUP-0113,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2025-09-03,,CST-0038
+SUP-0114,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2022-11-02,,CST-0038
+SUP-0115,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2022-01-13,,CST-0039
+SUP-0116,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2024-09-06,,CST-0040
+SUP-0117,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2021-11-15,,CST-0040
+SUP-0118,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2022-04-09,,CST-0040
+SUP-0119,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2025-11-12,,CST-0040
+SUP-0120,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2024-02-18,,CST-0040
+SUP-0121,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2022-09-01,,CST-0041
+SUP-0122,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-06-05,,CST-0042
+SUP-0123,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2023-10-05,,CST-0042
+SUP-0124,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2023-11-02,,CST-0043
+SUP-0125,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,CloudSync,2025-10-12,,CST-0043
+SUP-0126,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Open,CloudSync,2025-12-14,,CST-0043
+SUP-0127,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2023-01-24,,CST-0043
+SUP-0128,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2021-05-25,,CST-0044
+SUP-0129,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2025-03-29,,CST-0044
+SUP-0130,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2022-09-09,,CST-0044
+SUP-0131,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2021-06-25,,CST-0044
+SUP-0132,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2022-06-14,,CST-0045
+SUP-0133,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2024-10-21,,CST-0045
+SUP-0134,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2021-12-05,,CST-0046
+SUP-0135,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2025-03-08,,CST-0046
+SUP-0136,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2024-01-31,,CST-0046
+SUP-0137,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2025-10-02,,CST-0046
+SUP-0138,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2024-06-16,,CST-0046
+SUP-0139,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2023-12-27,,CST-0047
+SUP-0140,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2025-09-09,,CST-0047
+SUP-0141,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-09-28,,CST-0047
+SUP-0142,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2022-06-13,,CST-0047
+SUP-0143,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2024-12-29,,CST-0048
+SUP-0144,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-02-26,,CST-0048
+SUP-0145,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2021-10-30,,CST-0048
+SUP-0146,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Open,AtlasPay,2021-09-07,,CST-0049
+SUP-0147,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2023-09-08,,CST-0049
+SUP-0148,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2025-07-08,,CST-0049
+SUP-0149,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2021-10-02,,CST-0049
+SUP-0150,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2021-08-02,,CST-0050
+SUP-0151,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2023-02-16,,CST-0050
+SUP-0152,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-09-17,,CST-0050
+SUP-0153,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2021-11-29,,CST-0051
+SUP-0154,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2024-08-29,,CST-0051
+SUP-0155,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2022-05-21,,CST-0051
+SUP-0156,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2025-01-05,,CST-0051
+SUP-0157,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2021-10-19,,CST-0051
+SUP-0158,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,AtlasPay,2021-01-17,,CST-0052
+SUP-0159,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,InsightCRM,2022-08-08,,CST-0053
+SUP-0160,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2025-05-11,,CST-0053
+SUP-0161,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2022-01-15,,CST-0053
+SUP-0162,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2025-07-31,,CST-0053
+SUP-0163,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2025-08-27,,CST-0054
+SUP-0164,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2024-04-26,,CST-0054
+SUP-0165,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-09-07,,CST-0054
+SUP-0166,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2025-02-10,,CST-0054
+SUP-0167,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2022-12-19,,CST-0054
+SUP-0168,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2022-11-27,,CST-0055
+SUP-0169,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2025-09-06,,CST-0055
+SUP-0170,System Error: Out of memory (OOM) crash in insightcrm-ui pod during batch processing affecting our operations.,Closed,InsightCRM,2021-07-25,INC-0169,CST-0056
+SUP-0171,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2023-04-30,,CST-0056
+SUP-0172,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2022-11-17,,CST-0056
+SUP-0173,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2023-11-24,,CST-0057
+SUP-0174,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2025-04-24,,CST-0057
+SUP-0175,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2025-12-04,,CST-0057
+SUP-0176,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-07-31,,CST-0057
+SUP-0177,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,InsightCRM,2024-09-08,,CST-0057
+SUP-0178,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2022-03-20,,CST-0058
+SUP-0179,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2021-12-14,,CST-0058
+SUP-0180,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2025-09-18,,CST-0058
+SUP-0181,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2025-05-06,,CST-0058
+SUP-0182,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-07-25,,CST-0058
+SUP-0183,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2021-05-21,,CST-0059
+SUP-0184,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,FusionERP,2024-11-22,,CST-0059
+SUP-0185,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2023-12-20,,CST-0059
+SUP-0186,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2021-09-08,,CST-0059
+SUP-0187,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2024-05-26,,CST-0059
+SUP-0188,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2021-09-06,,CST-0060
+SUP-0189,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2022-08-13,,CST-0060
+SUP-0190,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2024-08-28,,CST-0061
+SUP-0191,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,FusionERP,2021-06-06,,CST-0061
+SUP-0192,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2021-01-16,,CST-0061
+SUP-0193,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2021-08-09,,CST-0061
+SUP-0194,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2023-11-11,,CST-0061
+SUP-0195,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2023-12-11,,CST-0062
+SUP-0196,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2023-03-03,,CST-0062
+SUP-0197,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2025-05-01,,CST-0062
+SUP-0198,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2022-12-28,,CST-0062
+SUP-0199,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2023-03-04,,CST-0062
+SUP-0200,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2023-07-04,,CST-0063
+SUP-0201,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2025-05-20,,CST-0063
+SUP-0202,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2021-07-07,,CST-0064
+SUP-0203,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2021-10-29,,CST-0064
+SUP-0204,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2023-10-03,,CST-0064
+SUP-0205,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2024-02-24,,CST-0064
+SUP-0206,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-05-20,,CST-0064
+SUP-0207,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2024-01-03,,CST-0065
+SUP-0208,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-05-14,,CST-0065
+SUP-0209,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2025-06-24,,CST-0065
+SUP-0210,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2025-03-08,,CST-0065
+SUP-0211,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2022-01-10,,CST-0065
+SUP-0212,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2025-12-27,,CST-0066
+SUP-0213,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-02-01,,CST-0067
+SUP-0214,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-08-10,,CST-0068
+SUP-0215,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,VisionAI,2021-09-22,,CST-0068
+SUP-0216,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-04-10,,CST-0068
+SUP-0217,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2023-02-22,,CST-0068
+SUP-0218,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-08-30,,CST-0069
+SUP-0219,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2024-07-01,,CST-0069
+SUP-0220,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2023-08-28,,CST-0069
+SUP-0221,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2021-10-20,,CST-0069
+SUP-0222,System Error: Cache stampede in atlaspay-portal for metadata queries affecting our operations.,Closed,AtlasPay,2021-08-19,INC-0191,CST-0070
+SUP-0223,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2021-10-31,,CST-0070
+SUP-0224,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2023-12-25,,CST-0070
+SUP-0225,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2025-10-08,,CST-0070
+SUP-0226,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2024-06-14,,CST-0070
+SUP-0227,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2023-12-07,,CST-0071
+SUP-0228,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2025-08-05,,CST-0072
+SUP-0229,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,InsightCRM,2025-03-14,,CST-0072
+SUP-0230,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2024-06-25,,CST-0072
+SUP-0231,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2021-09-29,,CST-0073
+SUP-0232,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2023-05-23,,CST-0074
+SUP-0233,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2022-05-18,,CST-0074
+SUP-0234,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2022-08-03,,CST-0074
+SUP-0235,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2024-01-26,,CST-0075
+SUP-0236,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2024-12-30,,CST-0075
+SUP-0237,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2022-11-15,,CST-0075
+SUP-0238,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2021-11-01,,CST-0075
+SUP-0239,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2023-10-04,,CST-0076
+SUP-0240,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2022-03-12,,CST-0077
+SUP-0241,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2024-06-20,,CST-0077
+SUP-0242,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2021-08-05,,CST-0077
+SUP-0243,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,CloudSync,2025-06-22,,CST-0077
+SUP-0244,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2024-10-31,,CST-0077
+SUP-0245,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,InsightCRM,2025-03-09,,CST-0078
+SUP-0246,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2025-06-14,,CST-0078
+SUP-0247,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2024-02-22,,CST-0078
+SUP-0248,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2025-10-20,,CST-0078
+SUP-0249,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2021-07-24,,CST-0078
+SUP-0250,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2023-03-18,,CST-0079
+SUP-0251,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2024-11-11,,CST-0080
+SUP-0252,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2022-05-23,,CST-0081
+SUP-0253,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2021-12-15,,CST-0081
+SUP-0254,System Error: Routing loop in Istio service mesh for insightcrm-analytics affecting our operations.,Closed,InsightCRM,2021-12-28,INC-0320,CST-0081
+SUP-0255,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2022-07-02,,CST-0082
+SUP-0256,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2025-12-26,,CST-0082
+SUP-0257,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2023-02-23,,CST-0082
+SUP-0258,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,InsightCRM,2022-02-17,,CST-0082
+SUP-0259,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2025-08-15,,CST-0083
+SUP-0260,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2025-12-01,,CST-0084
+SUP-0261,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2023-06-09,,CST-0085
+SUP-0262,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2021-06-02,,CST-0086
+SUP-0263,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2021-01-24,,CST-0086
+SUP-0264,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,InsightCRM,2024-12-05,,CST-0087
+SUP-0265,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2024-12-19,,CST-0087
+SUP-0266,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2025-01-12,,CST-0087
+SUP-0267,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2025-12-28,,CST-0087
+SUP-0268,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-06-22,,CST-0087
+SUP-0269,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2022-03-20,,CST-0088
+SUP-0270,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-08-15,,CST-0088
+SUP-0271,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2021-09-16,,CST-0088
+SUP-0272,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2023-09-20,,CST-0089
+SUP-0273,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2021-01-02,,CST-0090
+SUP-0274,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2025-01-27,,CST-0091
+SUP-0275,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2024-05-22,,CST-0091
+SUP-0276,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2025-05-03,,CST-0091
+SUP-0277,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2023-10-11,,CST-0091
+SUP-0278,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2023-01-29,,CST-0091
+SUP-0279,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2024-08-23,,CST-0092
+SUP-0280,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2022-12-14,,CST-0092
+SUP-0281,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2024-07-22,,CST-0092
+SUP-0282,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Open,AtlasPay,2023-05-22,,CST-0092
+SUP-0283,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Open,InsightCRM,2022-02-09,,CST-0093
+SUP-0284,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2025-02-19,,CST-0093
+SUP-0285,System Error: Out of memory (OOM) crash in visionai-training pod during batch processing affecting our operations.,Closed,VisionAI,2021-05-15,INC-0120,CST-0093
+SUP-0286,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2023-04-02,,CST-0094
+SUP-0287,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2024-04-16,,CST-0094
+SUP-0288,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2021-05-12,,CST-0094
+SUP-0289,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-12-28,,CST-0095
+SUP-0290,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2023-05-24,,CST-0095
+SUP-0291,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2021-03-03,,CST-0095
+SUP-0292,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2023-02-12,,CST-0095
+SUP-0293,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2021-11-24,,CST-0095
+SUP-0294,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2025-03-05,,CST-0096
+SUP-0295,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2021-11-13,,CST-0096
+SUP-0296,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2022-01-30,,CST-0097
+SUP-0297,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2024-07-04,,CST-0097
+SUP-0298,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-10-18,,CST-0097
+SUP-0299,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2025-06-13,,CST-0098
+SUP-0300,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,InsightCRM,2024-03-26,,CST-0099
+SUP-0301,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2021-10-11,,CST-0099
+SUP-0302,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2021-07-19,,CST-0099
+SUP-0303,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2024-07-19,,CST-0100
+SUP-0304,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2022-02-06,,CST-0101
+SUP-0305,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2023-05-06,,CST-0101
+SUP-0306,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,CloudSync,2025-03-20,,CST-0101
+SUP-0307,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2025-03-21,,CST-0101
+SUP-0308,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2022-01-28,,CST-0101
+SUP-0309,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,NovaCommerce,2022-12-25,,CST-0102
+SUP-0310,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2021-09-25,,CST-0102
+SUP-0311,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2021-08-03,,CST-0102
+SUP-0312,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2022-03-19,,CST-0103
+SUP-0313,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,FusionERP,2025-07-18,,CST-0103
+SUP-0314,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2024-08-01,,CST-0104
+SUP-0315,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2023-04-20,,CST-0104
+SUP-0316,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2022-11-21,,CST-0105
+SUP-0317,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2023-08-11,,CST-0105
+SUP-0318,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,FusionERP,2022-05-08,,CST-0105
+SUP-0319,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2022-02-03,,CST-0105
+SUP-0320,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2024-07-21,,CST-0105
+SUP-0321,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2025-05-25,,CST-0106
+SUP-0322,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,AtlasPay,2025-08-05,,CST-0106
+SUP-0323,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2022-07-29,,CST-0106
+SUP-0324,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2023-05-29,,CST-0106
+SUP-0325,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2022-06-15,,CST-0106
+SUP-0326,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2022-12-29,,CST-0107
+SUP-0327,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2025-08-09,,CST-0107
+SUP-0328,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2021-02-09,,CST-0108
+SUP-0329,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2023-06-07,,CST-0109
+SUP-0330,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2023-11-18,,CST-0109
+SUP-0331,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2022-12-02,,CST-0109
+SUP-0332,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2023-03-03,,CST-0109
+SUP-0333,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2021-01-21,,CST-0110
+SUP-0334,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2021-12-15,,CST-0110
+SUP-0335,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2025-09-03,,CST-0110
+SUP-0336,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2023-11-02,,CST-0110
+SUP-0337,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2022-09-15,,CST-0110
+SUP-0338,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2022-09-13,,CST-0111
+SUP-0339,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2022-06-10,,CST-0111
+SUP-0340,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2022-12-23,,CST-0111
+SUP-0341,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2025-04-23,,CST-0111
+SUP-0342,System Error: Unoptimized query on novacommerce-cart database after release affecting our operations.,Closed,NovaCommerce,2021-05-09,INC-0114,CST-0112
+SUP-0343,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-04-06,,CST-0112
+SUP-0344,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2024-02-23,,CST-0112
+SUP-0345,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2023-03-02,,CST-0112
+SUP-0346,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2024-03-15,,CST-0113
+SUP-0347,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2023-05-16,,CST-0113
+SUP-0348,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2025-11-08,,CST-0113
+SUP-0349,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2024-03-20,,CST-0114
+SUP-0350,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2022-05-13,,CST-0114
+SUP-0351,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2022-11-10,,CST-0114
+SUP-0352,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2021-07-26,,CST-0115
+SUP-0353,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2024-04-18,,CST-0115
+SUP-0354,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2022-06-27,,CST-0115
+SUP-0355,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2022-10-18,,CST-0115
+SUP-0356,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,FusionERP,2025-04-10,,CST-0116
+SUP-0357,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2021-12-25,,CST-0116
+SUP-0358,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2023-07-17,,CST-0116
+SUP-0359,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2025-02-22,,CST-0116
+SUP-0360,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2021-08-19,,CST-0116
+SUP-0361,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2024-01-16,,CST-0117
+SUP-0362,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2021-12-21,,CST-0117
+SUP-0363,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,NovaCommerce,2023-09-21,,CST-0117
+SUP-0364,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2022-03-31,,CST-0117
+SUP-0365,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-08-06,,CST-0118
+SUP-0366,System Error: Cache stampede in cloudsync-daemon for metadata queries affecting our operations.,Closed,CloudSync,2021-10-18,INC-0247,CST-0118
+SUP-0367,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2023-06-24,,CST-0118
+SUP-0368,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2023-10-01,,CST-0118
+SUP-0369,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2021-06-09,,CST-0119
+SUP-0370,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2024-06-05,,CST-0119
+SUP-0371,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,CloudSync,2023-02-28,,CST-0120
+SUP-0372,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2023-10-20,,CST-0120
+SUP-0373,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2022-05-26,,CST-0121
+SUP-0374,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2021-06-24,,CST-0122
+SUP-0375,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2023-06-15,,CST-0122
+SUP-0376,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2023-09-26,,CST-0122
+SUP-0377,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2022-07-09,,CST-0122
+SUP-0378,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2025-10-20,,CST-0122
+SUP-0379,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2025-12-21,,CST-0123
+SUP-0380,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2021-12-11,,CST-0123
+SUP-0381,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2023-08-26,,CST-0123
+SUP-0382,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2024-10-11,,CST-0123
+SUP-0383,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2025-02-20,,CST-0123
+SUP-0384,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,VisionAI,2023-10-05,,CST-0124
+SUP-0385,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,FusionERP,2021-10-30,,CST-0124
+SUP-0386,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2021-07-18,,CST-0124
+SUP-0387,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2022-03-30,,CST-0125
+SUP-0388,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2024-06-22,,CST-0125
+SUP-0389,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2025-10-22,,CST-0126
+SUP-0390,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Open,AtlasPay,2021-09-20,,CST-0127
+SUP-0391,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2023-07-01,,CST-0127
+SUP-0392,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2021-02-12,,CST-0127
+SUP-0393,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2022-03-25,,CST-0128
+SUP-0394,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2024-03-22,,CST-0128
+SUP-0395,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2025-01-23,,CST-0129
+SUP-0396,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2021-02-19,,CST-0129
+SUP-0397,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2024-05-18,,CST-0130
+SUP-0398,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2023-06-01,,CST-0130
+SUP-0399,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-09-15,,CST-0130
+SUP-0400,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Open,FusionERP,2024-08-03,,CST-0130
+SUP-0401,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2025-01-20,,CST-0131
+SUP-0402,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-08-17,,CST-0131
+SUP-0403,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2021-02-28,,CST-0132
+SUP-0404,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2024-04-11,,CST-0132
+SUP-0405,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2023-01-01,,CST-0132
+SUP-0406,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,InsightCRM,2021-12-15,,CST-0132
+SUP-0407,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2021-03-13,,CST-0133
+SUP-0408,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-04-08,,CST-0133
+SUP-0409,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2024-09-11,,CST-0133
+SUP-0410,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-11-06,,CST-0133
+SUP-0411,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,NovaCommerce,2022-08-06,,CST-0133
+SUP-0412,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2022-05-30,,CST-0134
+SUP-0413,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2025-07-12,,CST-0134
+SUP-0414,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2025-05-23,,CST-0134
+SUP-0415,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2021-08-18,,CST-0135
+SUP-0416,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2021-05-16,,CST-0135
+SUP-0417,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Open,FusionERP,2021-10-17,,CST-0135
+SUP-0418,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2024-12-20,,CST-0136
+SUP-0419,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-02-16,,CST-0136
+SUP-0420,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,CloudSync,2023-04-12,,CST-0136
+SUP-0421,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2025-02-20,,CST-0137
+SUP-0422,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2023-07-06,,CST-0137
+SUP-0423,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2022-03-03,,CST-0137
+SUP-0424,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2024-01-13,,CST-0137
+SUP-0425,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2025-01-10,,CST-0137
+SUP-0426,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-08-02,,CST-0138
+SUP-0427,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2025-11-04,,CST-0139
+SUP-0428,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2023-09-09,,CST-0139
+SUP-0429,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2022-06-26,,CST-0139
+SUP-0430,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Open,VisionAI,2021-09-01,,CST-0140
+SUP-0431,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-03-17,,CST-0140
+SUP-0432,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2025-07-06,,CST-0140
+SUP-0433,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2023-06-05,,CST-0141
+SUP-0434,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2024-05-11,,CST-0142
+SUP-0435,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2025-08-09,,CST-0142
+SUP-0436,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2024-04-29,,CST-0142
+SUP-0437,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-01-31,,CST-0142
+SUP-0438,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2021-07-03,,CST-0142
+SUP-0439,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2023-04-05,,CST-0143
+SUP-0440,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2021-02-18,,CST-0143
+SUP-0441,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2024-08-16,,CST-0143
+SUP-0442,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2021-01-21,,CST-0144
+SUP-0443,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2024-05-19,,CST-0144
+SUP-0444,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2025-08-18,,CST-0145
+SUP-0445,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2023-01-02,,CST-0146
+SUP-0446,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2021-06-04,,CST-0146
+SUP-0447,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2022-04-16,,CST-0147
+SUP-0448,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2022-04-05,,CST-0147
+SUP-0449,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2021-05-13,,CST-0147
+SUP-0450,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,InsightCRM,2023-02-05,,CST-0148
+SUP-0451,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2021-03-31,,CST-0148
+SUP-0452,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2021-10-14,,CST-0148
+SUP-0453,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Open,VisionAI,2024-06-13,,CST-0148
+SUP-0454,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2022-07-20,,CST-0148
+SUP-0455,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2022-01-11,,CST-0149
+SUP-0456,The search filter in NovaCommerce is returning incorrect inventory counts.,Open,InsightCRM,2021-08-22,,CST-0149
+SUP-0457,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,InsightCRM,2024-04-23,,CST-0149
+SUP-0458,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2023-06-17,,CST-0149
+SUP-0459,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-10-16,,CST-0149
+SUP-0460,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2023-01-25,,CST-0150
+SUP-0461,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2023-06-11,,CST-0150
+SUP-0462,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2024-07-20,,CST-0150
+SUP-0463,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Open,VisionAI,2021-01-20,,CST-0150
+SUP-0464,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2023-05-14,,CST-0151
+SUP-0465,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2022-09-09,,CST-0151
+SUP-0466,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2022-08-31,,CST-0151
+SUP-0467,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2024-07-16,,CST-0151
+SUP-0468,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2023-12-01,,CST-0151
+SUP-0469,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2022-12-14,,CST-0152
+SUP-0470,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2024-11-23,,CST-0152
+SUP-0471,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2025-01-17,,CST-0152
+SUP-0472,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2021-11-09,,CST-0152
+SUP-0473,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2025-02-02,,CST-0153
+SUP-0474,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2022-01-24,,CST-0154
+SUP-0475,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2025-04-08,,CST-0154
+SUP-0476,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2022-08-10,,CST-0154
+SUP-0477,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2025-06-03,,CST-0154
+SUP-0478,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2021-04-22,,CST-0154
+SUP-0479,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-09-14,,CST-0155
+SUP-0480,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Open,VisionAI,2025-08-25,,CST-0155
+SUP-0481,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2022-10-04,,CST-0156
+SUP-0482,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2021-08-07,,CST-0156
+SUP-0483,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,CloudSync,2025-09-25,,CST-0157
+SUP-0484,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,AtlasPay,2024-01-06,,CST-0158
+SUP-0485,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2025-11-25,,CST-0158
+SUP-0486,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2021-11-13,,CST-0158
+SUP-0487,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,NovaCommerce,2024-08-05,,CST-0159
+SUP-0488,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-04-23,,CST-0159
+SUP-0489,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,FusionERP,2025-01-19,,CST-0159
+SUP-0490,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2025-05-14,,CST-0159
+SUP-0491,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2023-05-02,,CST-0160
+SUP-0492,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,FusionERP,2022-07-24,,CST-0161
+SUP-0493,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2022-06-23,,CST-0162
+SUP-0494,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-11-24,,CST-0162
+SUP-0495,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2023-08-07,,CST-0162
+SUP-0496,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2023-08-27,,CST-0162
+SUP-0497,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,VisionAI,2023-01-13,,CST-0162
+SUP-0498,System Error: Database connection pool exhaustion on insightcrm-api affecting our operations.,Closed,InsightCRM,2021-10-03,INC-0230,CST-0163
+SUP-0499,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2022-01-19,,CST-0163
+SUP-0500,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2023-08-24,,CST-0163
+SUP-0501,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2022-03-04,,CST-0163
+SUP-0502,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2025-03-06,,CST-0163
+SUP-0503,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Open,NovaCommerce,2024-08-01,,CST-0164
+SUP-0504,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2023-09-05,,CST-0164
+SUP-0505,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,NovaCommerce,2024-05-12,,CST-0164
+SUP-0506,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2023-07-13,,CST-0164
+SUP-0507,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2023-10-23,,CST-0164
+SUP-0508,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2025-06-19,,CST-0165
+SUP-0509,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2024-05-13,,CST-0165
+SUP-0510,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2025-07-26,,CST-0165
+SUP-0511,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,FusionERP,2021-11-24,,CST-0165
+SUP-0512,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2024-08-18,,CST-0165
+SUP-0513,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2022-06-02,,CST-0166
+SUP-0514,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,CloudSync,2023-12-17,,CST-0166
+SUP-0515,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2021-05-15,,CST-0167
+SUP-0516,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2024-01-22,,CST-0167
+SUP-0517,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,VisionAI,2023-05-10,,CST-0168
+SUP-0518,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,VisionAI,2021-06-30,,CST-0168
+SUP-0519,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2022-01-25,,CST-0169
+SUP-0520,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2021-02-21,,CST-0169
+SUP-0521,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2024-09-23,,CST-0169
+SUP-0522,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,NovaCommerce,2023-04-29,,CST-0169
+SUP-0523,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Open,VisionAI,2021-04-16,,CST-0170
+SUP-0524,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2023-08-14,,CST-0170
+SUP-0525,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,CloudSync,2025-08-10,,CST-0171
+SUP-0526,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2022-12-02,,CST-0171
+SUP-0527,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2021-09-04,,CST-0171
+SUP-0528,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Open,VisionAI,2024-07-03,,CST-0172
+SUP-0529,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2021-02-06,,CST-0173
+SUP-0530,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2022-09-23,,CST-0173
+SUP-0531,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2024-07-07,,CST-0173
+SUP-0532,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-08-10,,CST-0174
+SUP-0533,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2024-11-09,,CST-0174
+SUP-0534,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-01-07,,CST-0174
+SUP-0535,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2023-06-06,,CST-0174
+SUP-0536,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-10-19,,CST-0174
+SUP-0537,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2021-05-14,,CST-0175
+SUP-0538,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,AtlasPay,2023-10-29,,CST-0175
+SUP-0539,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2024-01-24,,CST-0175
+SUP-0540,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-03-08,,CST-0175
+SUP-0541,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-03-30,,CST-0176
+SUP-0542,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2022-10-10,,CST-0176
+SUP-0543,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2021-06-09,,CST-0177
+SUP-0544,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2021-01-26,,CST-0178
+SUP-0545,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2023-10-02,,CST-0178
+SUP-0546,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2024-03-20,,CST-0178
+SUP-0547,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2025-12-28,,CST-0179
+SUP-0548,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-03-03,,CST-0179
+SUP-0549,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2024-03-28,,CST-0179
+SUP-0550,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2025-07-17,,CST-0179
+SUP-0551,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2025-05-18,,CST-0180
+SUP-0552,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2022-09-14,,CST-0180
+SUP-0553,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2024-03-26,,CST-0180
+SUP-0554,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,AtlasPay,2023-05-04,,CST-0181
+SUP-0555,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,AtlasPay,2022-04-02,,CST-0181
+SUP-0556,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2021-07-29,,CST-0181
+SUP-0557,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2023-01-25,,CST-0182
+SUP-0558,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,InsightCRM,2021-05-02,,CST-0182
+SUP-0559,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,NovaCommerce,2025-11-06,,CST-0182
+SUP-0560,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2021-05-23,,CST-0182
+SUP-0561,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,VisionAI,2023-03-22,,CST-0182
+SUP-0562,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2024-09-27,,CST-0183
+SUP-0563,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,FusionERP,2024-07-31,,CST-0183
+SUP-0564,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2024-08-02,,CST-0183
+SUP-0565,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2024-03-21,,CST-0183
+SUP-0566,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2023-04-13,,CST-0183
+SUP-0567,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2023-01-19,,CST-0184
+SUP-0568,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,FusionERP,2022-10-25,,CST-0185
+SUP-0569,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2023-08-27,,CST-0185
+SUP-0570,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2023-07-17,,CST-0185
+SUP-0571,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,NovaCommerce,2024-05-30,,CST-0186
+SUP-0572,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,CloudSync,2024-04-03,,CST-0186
+SUP-0573,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2021-04-30,,CST-0186
+SUP-0574,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,InsightCRM,2021-08-27,,CST-0187
+SUP-0575,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2025-04-28,,CST-0187
+SUP-0576,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2021-05-10,,CST-0187
+SUP-0577,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2022-03-18,,CST-0188
+SUP-0578,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2025-07-18,,CST-0188
+SUP-0579,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,InsightCRM,2024-06-27,,CST-0188
+SUP-0580,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,InsightCRM,2025-04-19,,CST-0188
+SUP-0581,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2023-11-23,,CST-0189
+SUP-0582,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2021-03-06,,CST-0190
+SUP-0583,System Error: Cache stampede in visionai-pipeline for metadata queries affecting our operations.,Closed,VisionAI,2021-04-09,INC-0085,CST-0190
+SUP-0584,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,NovaCommerce,2021-11-26,,CST-0190
+SUP-0585,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Open,AtlasPay,2025-05-20,,CST-0191
+SUP-0586,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,AtlasPay,2021-08-29,,CST-0191
+SUP-0587,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,AtlasPay,2023-03-21,,CST-0191
+SUP-0588,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,VisionAI,2022-09-21,,CST-0192
+SUP-0589,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,NovaCommerce,2022-02-07,,CST-0193
+SUP-0590,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2023-10-29,,CST-0193
+SUP-0591,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,VisionAI,2021-04-07,,CST-0194
+SUP-0592,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,CloudSync,2022-07-10,,CST-0194
+SUP-0593,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,AtlasPay,2021-06-02,,CST-0195
+SUP-0594,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,NovaCommerce,2021-09-20,,CST-0195
+SUP-0595,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,AtlasPay,2022-01-09,,CST-0195
+SUP-0596,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2022-11-24,,CST-0196
+SUP-0597,ERP payroll calculation failed to generate invoices. This is a critical regulatory blocker.,Closed,CloudSync,2022-11-02,,CST-0196
+SUP-0598,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,CloudSync,2025-09-09,,CST-0196
+SUP-0599,Sync tool fails with conflict errors for large files. We are losing progress on changes.,Closed,CloudSync,2021-03-09,,CST-0196
+SUP-0600,System Error: Routing loop in Istio service mesh for cloudsync-desktop affecting our operations.,Closed,CloudSync,2021-09-06,INC-0210,CST-0196
+SUP-0601,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2022-12-20,,CST-0197
+SUP-0602,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-12-19,,CST-0197
+SUP-0603,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-09-16,,CST-0197
+SUP-0604,"Session keeps expiring every 15 minutes, forcing our staff to log in repeatedly. Extremely frustrating.",Closed,VisionAI,2024-01-14,,CST-0198
+SUP-0605,Cannot process payments due to gateway timeout errors. This is blocking our checkout.,Closed,VisionAI,2021-02-09,,CST-0198
+SUP-0606,Can you support Webhooks for AtlasPay transaction status changes? Polling is too slow.,Closed,FusionERP,2022-07-15,,CST-0199
+SUP-0607,The CRM portal page load is taking over 10 seconds. Our sales reps are complaining.,Closed,FusionERP,2022-03-14,,CST-0200
+SUP-0608,System Error: Database connection pool exhaustion on fusionerp-frontend affecting our operations.,Closed,FusionERP,2022-01-10,INC-0334,CST-0200
+SUP-0609,The search filter in NovaCommerce is returning incorrect inventory counts.,Closed,FusionERP,2025-09-19,,CST-0200
+SUP-0610,"We need an API endpoint to download raw metrics from VisionAI; currently, we can only view them in the dashboard.",Closed,FusionERP,2022-10-13,,CST-0200

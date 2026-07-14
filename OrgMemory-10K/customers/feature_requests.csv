@@ -1,0 +1,398 @@
+request_id,title,status,product,created_date,linked_jira,customer_id
+FTR-0001,Request: Epic: Implement Memcached cache layer for novacommerce-cart,Implemented,NovaCommerce,2024-12-17,NC2-61,CST-0001
+FTR-0002,Request: Integrate metrics reporting client in cloudsync-storage,Implemented,CloudSync,2025-11-20,CS11-117,CST-0002
+FTR-0003,Request: Add feature request endpoint to cloudsync-storage,Under Review,CloudSync,2025-12-18,CS11-100,CST-0002
+FTR-0004,Request: Implement Cassandra backend service in cloudsync-storage,Under Review,CloudSync,2024-09-14,CS11-3,CST-0002
+FTR-0005,Request: Implement Nomad backend service in atlaspay-portal,Implemented,AtlasPay,2025-01-29,AP6-51,CST-0003
+FTR-0006,Request: Optimize user session timeouts in insightcrm-analytics,Implemented,InsightCRM,2023-05-26,IA9-175,CST-0003
+FTR-0007,Request: Refactor API request validation for visionai-training,Implemented,VisionAI,2022-03-24,VT14-174,CST-0004
+FTR-0008,Request: Add feature request endpoint to insightcrm-api,Implemented,InsightCRM,2022-12-30,IA7-158,CST-0004
+FTR-0009,Request: Add feature request endpoint to cloudsync-daemon,Under Review,CloudSync,2024-02-11,CD10-178,CST-0005
+FTR-0010,Request: Implement Redis backend service in novacommerce-checkout,Under Review,NovaCommerce,2021-11-03,NC3-34,CST-0005
+FTR-0011,Request: Implement Memcached backend service in novacommerce-ui,Implemented,NovaCommerce,2025-04-16,NU1-8,CST-0005
+FTR-0012,Request: Implement NATS backend service in visionai-pipeline,Implemented,VisionAI,2025-07-12,VP15-58,CST-0006
+FTR-0013,Request: Integrate metrics reporting client in visionai-inference,Implemented,VisionAI,2023-07-20,VI13-87,CST-0006
+FTR-0014,Request: Refactor API request validation for insightcrm-api,Under Review,InsightCRM,2024-11-17,IA7-96,CST-0006
+FTR-0015,Request: Implement Memcached backend service in fusionerp-payroll,Implemented,FusionERP,2022-01-17,FP17-38,CST-0007
+FTR-0016,Request: Refactor API request validation for fusionerp-frontend,Implemented,FusionERP,2023-03-25,FF18-76,CST-0007
+FTR-0017,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2024-03-16,FC16-75,CST-0007
+FTR-0018,Request: Implement pagination for bulk queries in novacommerce-api controller,Implemented,NovaCommerce,2022-04-30,NA0-129,CST-0008
+FTR-0019,Request: Epic: Implement Memcached cache layer for visionai-pipeline,Implemented,VisionAI,2023-04-15,VP15-27,CST-0008
+FTR-0020,Request: Integrate metrics reporting client in cloudsync-desktop,Implemented,CloudSync,2022-12-09,CD12-167,CST-0009
+FTR-0021,Request: Implement Redis backend service in cloudsync-daemon,Implemented,CloudSync,2025-08-28,CD10-10,CST-0009
+FTR-0022,Request: Optimize user session timeouts in insightcrm-ui,Implemented,InsightCRM,2023-06-11,IU8-167,CST-0009
+FTR-0023,Request: Implement Kubernetes backend service in fusionerp-frontend,Implemented,FusionERP,2024-11-04,FF18-20,CST-0010
+FTR-0024,Request: Optimize user session timeouts in insightcrm-api,Implemented,InsightCRM,2023-01-18,IA7-91,CST-0011
+FTR-0025,Request: Refactor API request validation for insightcrm-api,Under Review,InsightCRM,2021-06-25,IA7-144,CST-0011
+FTR-0026,Request: Integrate metrics reporting client in atlaspay-ledger,Implemented,AtlasPay,2021-01-23,AL5-196,CST-0011
+FTR-0027,Request: Add feature request endpoint to fusionerp-core,Implemented,FusionERP,2022-01-22,FC16-79,CST-0012
+FTR-0028,Request: Implement RabbitMQ backend service in fusionerp-frontend,Under Review,FusionERP,2024-08-19,FF18-63,CST-0013
+FTR-0029,Request: Implement pagination for bulk queries in atlaspay-ledger controller,Implemented,AtlasPay,2021-03-19,AL5-207,CST-0013
+FTR-0030,Request: Refactor API request validation for insightcrm-ui,Under Review,InsightCRM,2023-09-16,IU8-210,CST-0014
+FTR-0031,Request: Integrate metrics reporting client in insightcrm-ui,Implemented,InsightCRM,2021-03-25,IU8-118,CST-0014
+FTR-0032,Request: Integrate metrics reporting client in novacommerce-cart,Implemented,NovaCommerce,2025-06-05,NC2-143,CST-0015
+FTR-0033,Request: Integrate metrics reporting client in insightcrm-api,Implemented,InsightCRM,2025-08-06,IA7-160,CST-0016
+FTR-0034,Request: Implement Redis backend service in insightcrm-api,Implemented,InsightCRM,2022-01-27,IA7-12,CST-0016
+FTR-0035,Request: Epic: Adopt DynamoDB for insightcrm-ui database storage,Implemented,InsightCRM,2025-01-21,IU8-6,CST-0017
+FTR-0036,Request: Add feature request endpoint to atlaspay-gateway,Under Review,AtlasPay,2022-07-10,AG4-153,CST-0017
+FTR-0037,Request: Implement Memcached backend service in novacommerce-cart,Implemented,NovaCommerce,2025-01-24,NC2-65,CST-0018
+FTR-0038,Request: Implement pagination for bulk queries in visionai-pipeline controller,Implemented,VisionAI,2022-09-06,VP15-158,CST-0019
+FTR-0039,Request: Implement pagination for bulk queries in visionai-pipeline controller,Implemented,VisionAI,2023-10-19,VP15-179,CST-0019
+FTR-0040,Request: Epic: Adopt DynamoDB for visionai-training database storage,Implemented,VisionAI,2023-10-07,VT14-14,CST-0019
+FTR-0041,Request: Integrate metrics reporting client in novacommerce-api,Implemented,NovaCommerce,2025-10-07,NA0-67,CST-0020
+FTR-0042,Request: Implement pagination for bulk queries in atlaspay-gateway controller,Implemented,AtlasPay,2021-10-01,AG4-124,CST-0021
+FTR-0043,Request: Optimize user session timeouts in cloudsync-daemon,Implemented,CloudSync,2025-04-28,CD10-141,CST-0021
+FTR-0044,Request: Implement Vue.js backend service in fusionerp-payroll,Implemented,FusionERP,2024-08-23,FP17-17,CST-0022
+FTR-0045,Request: Implement AWS SQS backend service in fusionerp-frontend,Implemented,FusionERP,2025-12-17,FF18-41,CST-0022
+FTR-0046,Request: Implement Nomad backend service in fusionerp-frontend,Implemented,FusionERP,2023-12-09,FF18-23,CST-0022
+FTR-0047,Request: Implement NATS backend service in fusionerp-core,Implemented,FusionERP,2024-07-16,FC16-14,CST-0023
+FTR-0048,Request: Implement AWS ECS backend service in atlaspay-portal,Implemented,AtlasPay,2022-05-22,AP6-8,CST-0023
+FTR-0049,Request: Add feature request endpoint to cloudsync-daemon,Under Review,CloudSync,2024-04-13,CD10-148,CST-0024
+FTR-0050,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2023-03-19,FC16-50,CST-0025
+FTR-0051,Request: Refactor API request validation for atlaspay-portal,Implemented,AtlasPay,2022-05-27,AP6-138,CST-0025
+FTR-0052,Request: Refactor API request validation for cloudsync-desktop,Implemented,CloudSync,2024-10-22,CD12-172,CST-0026
+FTR-0053,Request: Optimize user session timeouts in insightcrm-ui,Under Review,InsightCRM,2022-07-04,IU8-143,CST-0026
+FTR-0054,Request: Integrate metrics reporting client in cloudsync-desktop,Implemented,CloudSync,2025-09-24,CD12-126,CST-0027
+FTR-0055,Request: Implement Memcached backend service in cloudsync-storage,Implemented,CloudSync,2024-08-06,CS11-37,CST-0027
+FTR-0056,Request: Epic: Implement Redis cache layer for cloudsync-daemon,Implemented,CloudSync,2024-08-19,CD10-9,CST-0028
+FTR-0057,Request: Implement pagination for bulk queries in cloudsync-storage controller,Implemented,CloudSync,2025-02-14,CS11-113,CST-0028
+FTR-0058,Request: Refactor API request validation for novacommerce-api,Implemented,NovaCommerce,2023-03-11,NA0-171,CST-0029
+FTR-0059,Request: Implement pagination for bulk queries in cloudsync-desktop controller,Implemented,CloudSync,2025-04-05,CD12-125,CST-0030
+FTR-0060,Request: Optimize user session timeouts in cloudsync-desktop,Implemented,CloudSync,2022-01-12,CD12-96,CST-0030
+FTR-0061,Request: Implement pagination for bulk queries in fusionerp-frontend controller,Implemented,FusionERP,2023-09-22,FF18-158,CST-0031
+FTR-0062,Request: Implement NATS backend service in fusionerp-core,Implemented,FusionERP,2025-02-07,FC16-8,CST-0031
+FTR-0063,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2024-11-06,FC16-50,CST-0031
+FTR-0064,Request: Add feature request endpoint to novacommerce-ui,Implemented,NovaCommerce,2024-04-14,NU1-84,CST-0032
+FTR-0065,Request: Epic: Adopt DynamoDB for novacommerce-api database storage,Implemented,NovaCommerce,2024-12-25,NA0-24,CST-0033
+FTR-0066,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Under Review,NovaCommerce,2022-04-13,NC3-179,CST-0033
+FTR-0067,Request: Implement MySQL backend service in novacommerce-ui,Implemented,NovaCommerce,2024-01-04,NU1-22,CST-0033
+FTR-0068,Request: Implement DynamoDB backend service in insightcrm-analytics,Under Review,InsightCRM,2023-01-24,IA9-38,CST-0034
+FTR-0069,Request: Optimize user session timeouts in novacommerce-api,Implemented,NovaCommerce,2022-06-19,NA0-124,CST-0034
+FTR-0070,Request: Implement DynamoDB backend service in insightcrm-analytics,Implemented,InsightCRM,2025-01-09,IA9-30,CST-0034
+FTR-0071,Request: Implement NATS backend service in fusionerp-core,Implemented,FusionERP,2021-08-24,FC16-30,CST-0035
+FTR-0072,Request: Refactor API request validation for fusionerp-core,Under Review,FusionERP,2025-06-22,FC16-44,CST-0035
+FTR-0073,Request: Optimize user session timeouts in novacommerce-cart,Implemented,NovaCommerce,2025-10-19,NC2-192,CST-0035
+FTR-0074,Request: Add feature request endpoint to cloudsync-storage,Implemented,CloudSync,2024-04-18,CS11-162,CST-0036
+FTR-0075,Request: Optimize user session timeouts in cloudsync-daemon,Implemented,CloudSync,2021-10-22,CD10-165,CST-0036
+FTR-0076,Request: Implement pagination for bulk queries in novacommerce-api controller,Implemented,NovaCommerce,2025-01-04,NA0-71,CST-0037
+FTR-0077,Request: Implement Redis backend service in insightcrm-api,Implemented,InsightCRM,2022-06-11,IA7-3,CST-0037
+FTR-0078,Request: Implement pagination for bulk queries in cloudsync-storage controller,Under Review,CloudSync,2024-06-25,CS11-148,CST-0037
+FTR-0079,Request: Refactor API request validation for fusionerp-core,Implemented,FusionERP,2024-09-04,FC16-99,CST-0038
+FTR-0080,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Implemented,NovaCommerce,2021-02-25,NC3-156,CST-0038
+FTR-0081,Request: Implement AWS ECS backend service in novacommerce-api,Implemented,NovaCommerce,2024-11-20,NA0-3,CST-0038
+FTR-0082,Request: Optimize user session timeouts in novacommerce-cart,Implemented,NovaCommerce,2022-10-30,NC2-136,CST-0039
+FTR-0083,Request: Implement pagination for bulk queries in novacommerce-api controller,Implemented,NovaCommerce,2022-12-23,NA0-73,CST-0039
+FTR-0084,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2021-06-22,FC16-126,CST-0039
+FTR-0085,Request: Implement Memcached backend service in visionai-pipeline,Implemented,VisionAI,2022-01-10,VP15-8,CST-0040
+FTR-0086,Request: Optimize user session timeouts in fusionerp-payroll,Under Review,FusionERP,2024-05-17,FP17-186,CST-0041
+FTR-0087,Request: Optimize user session timeouts in atlaspay-portal,Implemented,AtlasPay,2025-10-09,AP6-166,CST-0041
+FTR-0088,Request: Optimize user session timeouts in fusionerp-core,Implemented,FusionERP,2021-11-18,FC16-140,CST-0041
+FTR-0089,Request: Optimize user session timeouts in cloudsync-desktop,Implemented,CloudSync,2021-10-17,CD12-164,CST-0042
+FTR-0090,Request: Integrate metrics reporting client in cloudsync-desktop,Implemented,CloudSync,2025-06-16,CD12-197,CST-0042
+FTR-0091,Request: Add feature request endpoint to cloudsync-storage,Under Review,CloudSync,2021-10-03,CS11-75,CST-0042
+FTR-0092,Request: Epic: Introduce NATS for decoupled communications in cloudsync-desktop,Implemented,CloudSync,2022-08-07,CD12-18,CST-0043
+FTR-0093,Request: Add feature request endpoint to atlaspay-gateway,Implemented,AtlasPay,2022-07-07,AG4-180,CST-0044
+FTR-0094,Request: Implement AWS ECS backend service in atlaspay-ledger,Implemented,AtlasPay,2022-01-30,AL5-29,CST-0044
+FTR-0095,Request: Add feature request endpoint to visionai-pipeline,Under Review,VisionAI,2024-06-10,VP15-138,CST-0045
+FTR-0096,Request: Add feature request endpoint to cloudsync-desktop,Implemented,CloudSync,2022-01-18,CD12-119,CST-0046
+FTR-0097,Request: Epic: Implement Redis cache layer for cloudsync-storage,Under Review,CloudSync,2023-02-03,CS11-49,CST-0046
+FTR-0098,Request: Implement pagination for bulk queries in atlaspay-gateway controller,Implemented,AtlasPay,2025-03-20,AG4-124,CST-0047
+FTR-0099,Request: Integrate metrics reporting client in novacommerce-checkout,Under Review,NovaCommerce,2024-08-15,NC3-90,CST-0048
+FTR-0100,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Implemented,NovaCommerce,2022-01-03,NC3-184,CST-0048
+FTR-0101,Request: Integrate metrics reporting client in fusionerp-core,Implemented,FusionERP,2023-02-13,FC16-122,CST-0049
+FTR-0102,Request: Optimize user session timeouts in fusionerp-payroll,Implemented,FusionERP,2022-07-21,FP17-98,CST-0049
+FTR-0103,Request: Implement NATS backend service in fusionerp-core,Implemented,FusionERP,2024-11-15,FC16-14,CST-0049
+FTR-0104,Request: Epic: Implement Memcached cache layer for novacommerce-cart,Implemented,NovaCommerce,2024-04-07,NC2-30,CST-0050
+FTR-0105,Request: Refactor API request validation for insightcrm-api,Under Review,InsightCRM,2024-05-22,IA7-204,CST-0051
+FTR-0106,Request: Epic: Migrate atlaspay-gateway frontend architecture to Vue.js,Under Review,AtlasPay,2022-08-06,AG4-68,CST-0052
+FTR-0107,Request: Implement Vue.js backend service in atlaspay-ledger,Implemented,AtlasPay,2023-02-20,AL5-20,CST-0052
+FTR-0108,Request: Implement pagination for bulk queries in insightcrm-analytics controller,Implemented,InsightCRM,2023-03-20,IA9-120,CST-0053
+FTR-0109,Request: Implement React / Next.js backend service in novacommerce-cart,Implemented,NovaCommerce,2025-05-21,NC2-81,CST-0054
+FTR-0110,Request: Epic: Use Kubernetes to deploy novacommerce-cart to AWS,Implemented,NovaCommerce,2025-06-24,NC2-85,CST-0054
+FTR-0111,Request: Epic: Introduce Kafka for decoupled communications in novacommerce-cart,Implemented,NovaCommerce,2024-01-02,NC2-21,CST-0055
+FTR-0112,Request: Refactor API request validation for atlaspay-portal,Implemented,AtlasPay,2024-07-11,AP6-98,CST-0056
+FTR-0113,Request: Implement NATS backend service in visionai-training,Implemented,VisionAI,2023-07-05,VT14-82,CST-0057
+FTR-0114,Request: Epic: Adopt MySQL for visionai-pipeline database storage,Implemented,VisionAI,2025-05-13,VP15-18,CST-0058
+FTR-0115,Request: Optimize user session timeouts in visionai-pipeline,Implemented,VisionAI,2025-11-07,VP15-171,CST-0058
+FTR-0116,Request: Implement pagination for bulk queries in atlaspay-gateway controller,Under Review,AtlasPay,2024-02-04,AG4-208,CST-0058
+FTR-0117,Request: Refactor API request validation for fusionerp-payroll,Implemented,FusionERP,2024-12-01,FP17-195,CST-0059
+FTR-0118,Request: Epic: Introduce AWS SQS for decoupled communications in fusionerp-frontend,Implemented,FusionERP,2024-07-07,FF18-40,CST-0059
+FTR-0119,Request: Implement RabbitMQ backend service in fusionerp-frontend,Implemented,FusionERP,2022-11-30,FF18-25,CST-0060
+FTR-0120,Request: Epic: Introduce AWS SQS for decoupled communications in fusionerp-frontend,Implemented,FusionERP,2023-06-25,FF18-40,CST-0060
+FTR-0121,Request: Epic: Use AWS ECS to deploy fusionerp-payroll to AWS,Implemented,FusionERP,2022-03-19,FP17-45,CST-0060
+FTR-0122,Request: Implement pagination for bulk queries in cloudsync-daemon controller,Under Review,CloudSync,2021-08-21,CD10-158,CST-0061
+FTR-0123,Request: Integrate metrics reporting client in insightcrm-analytics,Implemented,InsightCRM,2021-05-21,IA9-174,CST-0062
+FTR-0124,Request: Integrate metrics reporting client in fusionerp-payroll,Under Review,FusionERP,2022-02-09,FP17-118,CST-0063
+FTR-0125,Request: Refactor API request validation for novacommerce-ui,Under Review,NovaCommerce,2025-09-14,NU1-192,CST-0063
+FTR-0126,Request: Epic: Use AWS ECS to deploy fusionerp-payroll to AWS,Implemented,FusionERP,2025-05-10,FP17-45,CST-0063
+FTR-0127,Request: Implement pagination for bulk queries in fusionerp-payroll controller,Under Review,FusionERP,2023-07-29,FP17-77,CST-0064
+FTR-0128,Request: Implement AWS SQS backend service in novacommerce-ui,Implemented,NovaCommerce,2024-06-23,NU1-20,CST-0064
+FTR-0129,Request: Add feature request endpoint to visionai-pipeline,Under Review,VisionAI,2024-01-13,VP15-152,CST-0065
+FTR-0130,Request: Implement pagination for bulk queries in insightcrm-ui controller,Under Review,InsightCRM,2023-01-29,IU8-163,CST-0066
+FTR-0131,Request: Implement React / Next.js backend service in fusionerp-payroll,Implemented,FusionERP,2022-08-19,FP17-14,CST-0066
+FTR-0132,Request: Add feature request endpoint to fusionerp-payroll,Implemented,FusionERP,2023-01-07,FP17-93,CST-0066
+FTR-0133,Request: Implement Memcached backend service in visionai-pipeline,Implemented,VisionAI,2025-02-20,VP15-28,CST-0067
+FTR-0134,Request: Implement Memcached backend service in fusionerp-payroll,Implemented,FusionERP,2025-05-11,FP17-6,CST-0068
+FTR-0135,Request: Optimize user session timeouts in visionai-training,Under Review,VisionAI,2024-08-28,VT14-136,CST-0068
+FTR-0136,Request: Implement AWS SQS backend service in visionai-pipeline,Under Review,VisionAI,2023-05-18,VP15-45,CST-0068
+FTR-0137,Request: Implement Vue.js backend service in cloudsync-storage,Implemented,CloudSync,2024-12-05,CS11-7,CST-0069
+FTR-0138,Request: Epic: Use AWS ECS to deploy atlaspay-portal to AWS,Implemented,AtlasPay,2021-12-03,AP6-10,CST-0070
+FTR-0139,Request: Optimize user session timeouts in visionai-inference,Implemented,VisionAI,2024-09-20,VI13-135,CST-0071
+FTR-0140,Request: Epic: Migrate cloudsync-daemon frontend architecture to Svelte,Implemented,CloudSync,2023-05-11,CD10-24,CST-0072
+FTR-0141,Request: Epic: Introduce AWS SQS for decoupled communications in cloudsync-daemon,Implemented,CloudSync,2022-09-05,CD10-1,CST-0072
+FTR-0142,Request: Refactor API request validation for fusionerp-frontend,Implemented,FusionERP,2022-03-19,FF18-126,CST-0073
+FTR-0143,Request: Epic: Implement Memcached cache layer for fusionerp-payroll,Implemented,FusionERP,2023-12-06,FP17-24,CST-0073
+FTR-0144,Request: Epic: Implement Redis cache layer for atlaspay-portal,Implemented,AtlasPay,2024-01-14,AP6-74,CST-0074
+FTR-0145,Request: Integrate metrics reporting client in atlaspay-ledger,Implemented,AtlasPay,2021-06-20,AL5-160,CST-0074
+FTR-0146,Request: Refactor API request validation for fusionerp-core,Under Review,FusionERP,2024-09-17,FC16-45,CST-0075
+FTR-0147,Request: Add feature request endpoint to fusionerp-payroll,Under Review,FusionERP,2024-04-03,FP17-158,CST-0075
+FTR-0148,Request: Optimize user session timeouts in fusionerp-frontend,Implemented,FusionERP,2025-02-28,FF18-169,CST-0075
+FTR-0149,Request: Implement pagination for bulk queries in novacommerce-api controller,Implemented,NovaCommerce,2025-01-11,NA0-151,CST-0076
+FTR-0150,Request: Epic: Migrate fusionerp-payroll frontend architecture to Svelte,Implemented,FusionERP,2025-09-11,FP17-43,CST-0076
+FTR-0151,Request: Add feature request endpoint to atlaspay-ledger,Implemented,AtlasPay,2024-07-27,AL5-84,CST-0077
+FTR-0152,Request: Implement DynamoDB backend service in cloudsync-daemon,Implemented,CloudSync,2024-11-17,CD10-43,CST-0078
+FTR-0153,Request: Refactor API request validation for novacommerce-cart,Implemented,NovaCommerce,2022-04-10,NC2-139,CST-0078
+FTR-0154,Request: Epic: Introduce NATS for decoupled communications in insightcrm-analytics,Implemented,InsightCRM,2025-02-10,IA9-20,CST-0078
+FTR-0155,Request: Refactor API request validation for insightcrm-analytics,Implemented,InsightCRM,2025-08-12,IA9-132,CST-0079
+FTR-0156,Request: Implement pagination for bulk queries in insightcrm-analytics controller,Implemented,InsightCRM,2022-02-07,IA9-117,CST-0079
+FTR-0157,Request: Integrate metrics reporting client in insightcrm-api,Implemented,InsightCRM,2024-03-09,IA7-205,CST-0080
+FTR-0158,Request: Add feature request endpoint to novacommerce-cart,Under Review,NovaCommerce,2025-04-21,NC2-198,CST-0080
+FTR-0159,Request: Optimize user session timeouts in insightcrm-api,Implemented,InsightCRM,2021-02-28,IA7-131,CST-0081
+FTR-0160,Request: Epic: Adopt Cassandra for fusionerp-payroll database storage,Implemented,FusionERP,2023-01-18,FP17-21,CST-0081
+FTR-0161,Request: Optimize user session timeouts in fusionerp-payroll,Implemented,FusionERP,2025-10-21,FP17-206,CST-0081
+FTR-0162,Request: Add feature request endpoint to insightcrm-analytics,Implemented,InsightCRM,2025-01-18,IA9-157,CST-0082
+FTR-0163,Request: Implement AWS ECS backend service in insightcrm-api,Implemented,InsightCRM,2022-06-25,IA7-21,CST-0082
+FTR-0164,Request: Integrate metrics reporting client in insightcrm-ui,Implemented,InsightCRM,2022-11-27,IU8-197,CST-0082
+FTR-0165,Request: Implement Angular backend service in atlaspay-gateway,Implemented,AtlasPay,2025-02-05,AG4-37,CST-0083
+FTR-0166,Request: Optimize user session timeouts in fusionerp-frontend,Under Review,FusionERP,2023-04-14,FF18-165,CST-0083
+FTR-0167,Request: Implement pagination for bulk queries in visionai-pipeline controller,Implemented,VisionAI,2024-08-22,VP15-132,CST-0083
+FTR-0168,Request: Integrate metrics reporting client in cloudsync-daemon,Implemented,CloudSync,2021-10-23,CD10-135,CST-0084
+FTR-0169,Request: Integrate metrics reporting client in cloudsync-desktop,Implemented,CloudSync,2022-10-01,CD12-126,CST-0084
+FTR-0170,Request: Epic: Migrate cloudsync-desktop frontend architecture to Vue.js,Implemented,CloudSync,2021-04-23,CD12-35,CST-0084
+FTR-0171,Request: Implement Memcached backend service in visionai-training,Implemented,VisionAI,2024-10-21,VT14-73,CST-0085
+FTR-0172,Request: Add feature request endpoint to fusionerp-core,Implemented,FusionERP,2021-06-09,FC16-102,CST-0086
+FTR-0173,Request: Epic: Introduce Kafka for decoupled communications in fusionerp-payroll,Implemented,FusionERP,2022-01-15,FP17-29,CST-0086
+FTR-0174,Request: Epic: Introduce NATS for decoupled communications in fusionerp-core,Implemented,FusionERP,2023-07-11,FC16-7,CST-0086
+FTR-0175,Request: Implement Redis backend service in insightcrm-api,Implemented,InsightCRM,2024-12-16,IA7-43,CST-0087
+FTR-0176,Request: Refactor API request validation for insightcrm-ui,Implemented,InsightCRM,2022-11-26,IU8-182,CST-0088
+FTR-0177,Request: Epic: Implement Memcached cache layer for visionai-training,Implemented,VisionAI,2023-09-17,VT14-72,CST-0088
+FTR-0178,Request: Refactor API request validation for insightcrm-api,Implemented,InsightCRM,2025-01-20,IA7-169,CST-0089
+FTR-0179,Request: Implement Kubernetes backend service in atlaspay-ledger,Under Review,AtlasPay,2024-04-20,AL5-6,CST-0090
+FTR-0180,Request: Implement pagination for bulk queries in atlaspay-portal controller,Under Review,AtlasPay,2023-09-15,AP6-152,CST-0090
+FTR-0181,Request: Integrate metrics reporting client in visionai-inference,Implemented,VisionAI,2022-02-01,VI13-175,CST-0091
+FTR-0182,Request: Refactor API request validation for atlaspay-gateway,Implemented,AtlasPay,2021-07-25,AG4-101,CST-0092
+FTR-0183,Request: Add feature request endpoint to visionai-inference,Implemented,VisionAI,2021-05-10,VI13-192,CST-0093
+FTR-0184,Request: Epic: Adopt MySQL for insightcrm-api database storage,Implemented,InsightCRM,2022-02-27,IA7-60,CST-0093
+FTR-0185,Request: Implement pagination for bulk queries in atlaspay-portal controller,Under Review,AtlasPay,2023-01-12,AP6-152,CST-0093
+FTR-0186,Request: Epic: Migrate cloudsync-desktop frontend architecture to Vue.js,Implemented,CloudSync,2024-08-10,CD12-38,CST-0094
+FTR-0187,Request: Implement MySQL backend service in cloudsync-desktop,Implemented,CloudSync,2025-11-23,CD12-52,CST-0094
+FTR-0188,Request: Implement DynamoDB backend service in visionai-pipeline,Implemented,VisionAI,2025-06-08,VP15-6,CST-0094
+FTR-0189,Request: Optimize user session timeouts in atlaspay-gateway,Implemented,AtlasPay,2022-06-12,AG4-185,CST-0095
+FTR-0190,Request: Implement pagination for bulk queries in atlaspay-gateway controller,Implemented,AtlasPay,2024-03-07,AG4-168,CST-0095
+FTR-0191,Request: Optimize user session timeouts in insightcrm-analytics,Implemented,InsightCRM,2021-08-27,IA9-144,CST-0096
+FTR-0192,Request: Epic: Use AWS ECS to deploy insightcrm-analytics to AWS,Implemented,InsightCRM,2023-10-18,IA9-49,CST-0096
+FTR-0193,Request: Integrate metrics reporting client in cloudsync-storage,Under Review,CloudSync,2021-08-14,CS11-183,CST-0097
+FTR-0194,Request: Implement Nomad backend service in atlaspay-ledger,Implemented,AtlasPay,2023-07-09,AL5-50,CST-0097
+FTR-0195,Request: Add feature request endpoint to atlaspay-ledger,Under Review,AtlasPay,2022-10-12,AL5-142,CST-0098
+FTR-0196,Request: Refactor API request validation for atlaspay-portal,Implemented,AtlasPay,2022-08-11,AP6-144,CST-0098
+FTR-0197,Request: Epic: Implement Redis cache layer for atlaspay-portal,Implemented,AtlasPay,2025-04-23,AP6-74,CST-0098
+FTR-0198,Request: Refactor API request validation for insightcrm-api,Implemented,InsightCRM,2021-07-07,IA7-146,CST-0099
+FTR-0199,Request: Implement pagination for bulk queries in cloudsync-desktop controller,Implemented,CloudSync,2023-11-30,CD12-157,CST-0100
+FTR-0200,Request: Implement pagination for bulk queries in cloudsync-desktop controller,Under Review,CloudSync,2022-12-16,CD12-95,CST-0100
+FTR-0201,Request: Implement Kubernetes backend service in cloudsync-storage,Implemented,CloudSync,2025-11-19,CS11-26,CST-0101
+FTR-0202,Request: Epic: Implement Memcached cache layer for cloudsync-desktop,Under Review,CloudSync,2023-07-04,CD12-11,CST-0101
+FTR-0203,Request: Implement React / Next.js backend service in cloudsync-desktop,Under Review,CloudSync,2024-02-07,CD12-22,CST-0101
+FTR-0204,Request: Implement MongoDB backend service in novacommerce-checkout,Under Review,NovaCommerce,2021-10-20,NC3-43,CST-0102
+FTR-0205,Request: Epic: Adopt MySQL for cloudsync-desktop database storage,Implemented,CloudSync,2022-06-01,CD12-51,CST-0102
+FTR-0206,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2022-08-10,VI13-113,CST-0102
+FTR-0207,Request: Implement Memcached backend service in cloudsync-storage,Implemented,CloudSync,2021-07-07,CS11-37,CST-0103
+FTR-0208,Request: Implement RabbitMQ backend service in fusionerp-frontend,Under Review,FusionERP,2021-09-04,FF18-53,CST-0103
+FTR-0209,Request: Integrate metrics reporting client in fusionerp-core,Implemented,FusionERP,2023-03-03,FC16-103,CST-0103
+FTR-0210,Request: Refactor API request validation for insightcrm-api,Under Review,InsightCRM,2022-07-16,IA7-86,CST-0104
+FTR-0211,Request: Epic: Introduce RabbitMQ for decoupled communications in fusionerp-core,Under Review,FusionERP,2023-08-18,FC16-25,CST-0105
+FTR-0212,Request: Optimize user session timeouts in fusionerp-frontend,Implemented,FusionERP,2023-11-30,FF18-204,CST-0105
+FTR-0213,Request: Epic: Adopt Cassandra for atlaspay-gateway database storage,Implemented,AtlasPay,2024-12-23,AG4-58,CST-0106
+FTR-0214,Request: Refactor API request validation for fusionerp-payroll,Implemented,FusionERP,2024-02-29,FP17-173,CST-0107
+FTR-0215,Request: Epic: Implement Redis cache layer for fusionerp-frontend,Implemented,FusionERP,2022-12-07,FF18-37,CST-0107
+FTR-0216,Request: Implement pagination for bulk queries in atlaspay-gateway controller,Implemented,AtlasPay,2022-07-20,AG4-144,CST-0107
+FTR-0217,Request: Epic: Implement Memcached cache layer for fusionerp-payroll,Implemented,FusionERP,2023-11-18,FP17-5,CST-0108
+FTR-0218,Request: Epic: Migrate fusionerp-payroll frontend architecture to Vue.js,Implemented,FusionERP,2023-11-11,FP17-16,CST-0108
+FTR-0219,Request: Implement Memcached backend service in fusionerp-payroll,Implemented,FusionERP,2021-02-12,FP17-38,CST-0109
+FTR-0220,Request: Add feature request endpoint to fusionerp-payroll,Under Review,FusionERP,2021-11-20,FP17-124,CST-0109
+FTR-0221,Request: Add feature request endpoint to insightcrm-analytics,Implemented,InsightCRM,2021-10-20,IA9-108,CST-0110
+FTR-0222,Request: Implement Cassandra backend service in fusionerp-payroll,Implemented,FusionERP,2024-04-01,FP17-22,CST-0110
+FTR-0223,Request: Implement Memcached backend service in insightcrm-analytics,Implemented,InsightCRM,2024-06-17,IA9-34,CST-0110
+FTR-0224,Request: Implement React / Next.js backend service in novacommerce-api,Implemented,NovaCommerce,2025-10-05,NA0-14,CST-0111
+FTR-0225,Request: Implement pagination for bulk queries in novacommerce-api controller,Under Review,NovaCommerce,2023-04-21,NA0-92,CST-0112
+FTR-0226,Request: Implement RabbitMQ backend service in cloudsync-storage,Implemented,CloudSync,2021-10-24,CS11-30,CST-0112
+FTR-0227,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2025-01-30,VI13-144,CST-0113
+FTR-0228,Request: Implement Angular backend service in visionai-training,Implemented,VisionAI,2022-08-18,VT14-32,CST-0113
+FTR-0229,Request: Optimize user session timeouts in insightcrm-analytics,Implemented,InsightCRM,2025-03-20,IA9-138,CST-0113
+FTR-0230,Request: Refactor API request validation for insightcrm-api,Implemented,InsightCRM,2022-11-30,IA7-146,CST-0114
+FTR-0231,Request: Refactor API request validation for insightcrm-ui,Implemented,InsightCRM,2023-11-16,IU8-171,CST-0114
+FTR-0232,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Under Review,NovaCommerce,2024-09-11,NC3-161,CST-0114
+FTR-0233,Request: Implement Kubernetes backend service in cloudsync-daemon,Implemented,CloudSync,2022-03-05,CD10-19,CST-0115
+FTR-0234,Request: Epic: Adopt MongoDB for cloudsync-storage database storage,Implemented,CloudSync,2024-03-13,CS11-39,CST-0115
+FTR-0235,Request: Implement Vue.js backend service in cloudsync-storage,Implemented,CloudSync,2025-12-05,CS11-7,CST-0115
+FTR-0236,Request: Integrate metrics reporting client in visionai-inference,Implemented,VisionAI,2023-06-20,VI13-147,CST-0116
+FTR-0237,Request: Implement pagination for bulk queries in fusionerp-frontend controller,Implemented,FusionERP,2025-04-11,FF18-192,CST-0116
+FTR-0238,Request: Epic: Adopt Cassandra for visionai-inference database storage,Implemented,VisionAI,2024-01-30,VI13-9,CST-0116
+FTR-0239,Request: Integrate metrics reporting client in insightcrm-ui,Implemented,InsightCRM,2021-08-14,IU8-147,CST-0117
+FTR-0240,Request: Implement PostgreSQL backend service in cloudsync-daemon,Implemented,CloudSync,2021-06-24,CD10-39,CST-0118
+FTR-0241,Request: Integrate metrics reporting client in cloudsync-storage,Under Review,CloudSync,2023-10-11,CS11-183,CST-0118
+FTR-0242,Request: Refactor API request validation for insightcrm-ui,Implemented,InsightCRM,2025-05-29,IU8-78,CST-0119
+FTR-0243,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2022-12-12,VI13-88,CST-0119
+FTR-0244,Request: Refactor API request validation for cloudsync-daemon,Implemented,CloudSync,2022-10-21,CD10-163,CST-0120
+FTR-0245,Request: Epic: Adopt DynamoDB for visionai-training database storage,Implemented,VisionAI,2023-09-01,VT14-14,CST-0121
+FTR-0246,Request: Implement pagination for bulk queries in visionai-inference controller,Implemented,VisionAI,2023-05-13,VI13-172,CST-0122
+FTR-0247,Request: Implement Kubernetes backend service in visionai-inference,Implemented,VisionAI,2023-04-12,VI13-25,CST-0122
+FTR-0248,Request: Refactor API request validation for novacommerce-checkout,Implemented,NovaCommerce,2024-02-03,NC3-188,CST-0123
+FTR-0249,Request: Add feature request endpoint to fusionerp-core,Implemented,FusionERP,2024-07-02,FC16-52,CST-0123
+FTR-0250,Request: Refactor API request validation for visionai-training,Implemented,VisionAI,2022-01-04,VT14-159,CST-0124
+FTR-0251,Request: Implement Redis backend service in insightcrm-api,Implemented,InsightCRM,2023-02-24,IA7-24,CST-0125
+FTR-0252,Request: Epic: Implement Memcached cache layer for fusionerp-payroll,Implemented,FusionERP,2025-07-11,FP17-33,CST-0126
+FTR-0253,Request: Optimize user session timeouts in insightcrm-analytics,Under Review,InsightCRM,2025-11-27,IA9-162,CST-0127
+FTR-0254,Request: Refactor API request validation for atlaspay-ledger,Under Review,AtlasPay,2025-05-16,AL5-87,CST-0127
+FTR-0255,Request: Optimize user session timeouts in novacommerce-ui,Under Review,NovaCommerce,2021-05-16,NU1-86,CST-0128
+FTR-0256,Request: Epic: Introduce NATS for decoupled communications in cloudsync-desktop,Implemented,CloudSync,2021-03-04,CD12-18,CST-0129
+FTR-0257,Request: Epic: Introduce NATS for decoupled communications in cloudsync-daemon,Implemented,CloudSync,2022-10-31,CD10-35,CST-0129
+FTR-0258,Request: Epic: Use Nomad to deploy cloudsync-desktop to AWS,Under Review,CloudSync,2021-07-12,CD12-48,CST-0129
+FTR-0259,Request: Implement Memcached backend service in atlaspay-gateway,Implemented,AtlasPay,2023-08-05,AG4-40,CST-0130
+FTR-0260,Request: Integrate metrics reporting client in visionai-inference,Implemented,VisionAI,2025-09-06,VI13-175,CST-0131
+FTR-0261,Request: Implement pagination for bulk queries in novacommerce-cart controller,Implemented,NovaCommerce,2021-04-07,NC2-102,CST-0131
+FTR-0262,Request: Integrate metrics reporting client in novacommerce-cart,Under Review,NovaCommerce,2025-08-12,NC2-129,CST-0132
+FTR-0263,Request: Integrate metrics reporting client in novacommerce-cart,Implemented,NovaCommerce,2021-06-12,NC2-186,CST-0133
+FTR-0264,Request: Integrate metrics reporting client in novacommerce-ui,Implemented,NovaCommerce,2024-01-11,NU1-80,CST-0133
+FTR-0265,Request: Integrate metrics reporting client in novacommerce-ui,Implemented,NovaCommerce,2021-08-10,NU1-183,CST-0133
+FTR-0266,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2022-01-18,VI13-92,CST-0134
+FTR-0267,Request: Epic: Introduce Kafka for decoupled communications in atlaspay-ledger,Implemented,AtlasPay,2024-05-21,AL5-39,CST-0135
+FTR-0268,Request: Implement pagination for bulk queries in insightcrm-api controller,Implemented,InsightCRM,2024-12-27,IA7-157,CST-0135
+FTR-0269,Request: Implement pagination for bulk queries in insightcrm-ui controller,Implemented,InsightCRM,2021-01-11,IU8-208,CST-0136
+FTR-0270,Request: Implement Angular backend service in atlaspay-gateway,Implemented,AtlasPay,2023-02-11,AG4-37,CST-0136
+FTR-0271,Request: Add feature request endpoint to cloudsync-daemon,Implemented,CloudSync,2023-05-27,CD10-170,CST-0137
+FTR-0272,Request: Implement AWS SQS backend service in visionai-pipeline,Under Review,VisionAI,2023-11-19,VP15-45,CST-0138
+FTR-0273,Request: Implement pagination for bulk queries in visionai-inference controller,Implemented,VisionAI,2023-05-22,VI13-172,CST-0138
+FTR-0274,Request: Implement Svelte backend service in atlaspay-ledger,Implemented,AtlasPay,2021-01-16,AL5-11,CST-0139
+FTR-0275,Request: Epic: Use Kubernetes to deploy atlaspay-ledger to AWS,Under Review,AtlasPay,2025-05-18,AL5-5,CST-0139
+FTR-0276,Request: Refactor API request validation for visionai-pipeline,Implemented,VisionAI,2024-02-24,VP15-82,CST-0140
+FTR-0277,Request: Optimize user session timeouts in visionai-inference,Implemented,VisionAI,2025-04-30,VI13-202,CST-0140
+FTR-0278,Request: Integrate metrics reporting client in visionai-pipeline,Implemented,VisionAI,2021-06-16,VP15-146,CST-0140
+FTR-0279,Request: Optimize user session timeouts in insightcrm-api,Implemented,InsightCRM,2025-10-12,IA7-104,CST-0141
+FTR-0280,Request: Add feature request endpoint to atlaspay-ledger,Implemented,AtlasPay,2022-11-28,AL5-84,CST-0142
+FTR-0281,Request: Refactor API request validation for novacommerce-ui,Implemented,NovaCommerce,2021-03-17,NU1-121,CST-0142
+FTR-0282,Request: Implement Kubernetes backend service in atlaspay-gateway,Implemented,AtlasPay,2022-10-03,AG4-44,CST-0142
+FTR-0283,Request: Integrate metrics reporting client in visionai-inference,Under Review,VisionAI,2025-03-30,VI13-142,CST-0143
+FTR-0284,Request: Add feature request endpoint to visionai-inference,Under Review,VisionAI,2021-03-11,VI13-103,CST-0143
+FTR-0285,Request: Implement pagination for bulk queries in insightcrm-ui controller,Under Review,InsightCRM,2024-06-28,IU8-189,CST-0144
+FTR-0286,Request: Implement AWS ECS backend service in insightcrm-ui,Implemented,InsightCRM,2022-09-07,IU8-44,CST-0144
+FTR-0287,Request: Optimize user session timeouts in insightcrm-ui,Implemented,InsightCRM,2021-07-09,IU8-79,CST-0144
+FTR-0288,Request: Add feature request endpoint to atlaspay-ledger,Implemented,AtlasPay,2022-07-18,AL5-125,CST-0145
+FTR-0289,Request: Refactor API request validation for insightcrm-analytics,Under Review,InsightCRM,2021-06-01,IA9-93,CST-0145
+FTR-0290,Request: Implement Memcached backend service in atlaspay-portal,Implemented,AtlasPay,2021-01-22,AP6-71,CST-0145
+FTR-0291,Request: Integrate metrics reporting client in novacommerce-checkout,Implemented,NovaCommerce,2025-02-24,NC3-72,CST-0146
+FTR-0292,Request: Optimize user session timeouts in insightcrm-analytics,Under Review,InsightCRM,2024-05-18,IA9-141,CST-0147
+FTR-0293,Request: Epic: Use Kubernetes to deploy visionai-inference to AWS,Implemented,VisionAI,2023-02-25,VI13-56,CST-0148
+FTR-0294,Request: Implement MongoDB backend service in insightcrm-ui,Implemented,InsightCRM,2022-01-19,IU8-18,CST-0148
+FTR-0295,Request: Add feature request endpoint to insightcrm-api,Implemented,InsightCRM,2023-10-06,IA7-186,CST-0149
+FTR-0296,Request: Epic: Introduce RabbitMQ for decoupled communications in insightcrm-analytics,Implemented,InsightCRM,2023-10-19,IA9-44,CST-0149
+FTR-0297,Request: Implement Nomad backend service in insightcrm-ui,Implemented,InsightCRM,2025-06-06,IU8-41,CST-0149
+FTR-0298,Request: Implement Svelte backend service in fusionerp-payroll,Implemented,FusionERP,2021-07-24,FP17-20,CST-0150
+FTR-0299,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2021-09-08,FC16-106,CST-0151
+FTR-0300,Request: Optimize user session timeouts in novacommerce-ui,Implemented,NovaCommerce,2021-06-25,NU1-145,CST-0151
+FTR-0301,Request: Implement Redis backend service in fusionerp-frontend,Implemented,FusionERP,2021-06-19,FF18-38,CST-0151
+FTR-0302,Request: Integrate metrics reporting client in fusionerp-core,Implemented,FusionERP,2021-09-09,FC16-103,CST-0152
+FTR-0303,Request: Refactor API request validation for cloudsync-daemon,Implemented,CloudSync,2022-02-04,CD10-177,CST-0153
+FTR-0304,Request: Epic: Adopt MongoDB for cloudsync-storage database storage,Implemented,CloudSync,2021-04-20,CS11-18,CST-0153
+FTR-0305,Request: Optimize user session timeouts in atlaspay-ledger,Implemented,AtlasPay,2022-02-02,AL5-99,CST-0154
+FTR-0306,Request: Refactor API request validation for insightcrm-ui,Implemented,InsightCRM,2024-01-15,IU8-95,CST-0155
+FTR-0307,Request: Implement Redis backend service in cloudsync-daemon,Implemented,CloudSync,2024-03-16,CD10-10,CST-0156
+FTR-0308,Request: Add feature request endpoint to cloudsync-desktop,Implemented,CloudSync,2024-10-22,CD12-194,CST-0156
+FTR-0309,Request: Implement pagination for bulk queries in cloudsync-storage controller,Implemented,CloudSync,2022-05-20,CS11-131,CST-0156
+FTR-0310,Request: Integrate metrics reporting client in cloudsync-storage,Implemented,CloudSync,2023-12-24,CS11-174,CST-0157
+FTR-0311,Request: Implement Kubernetes backend service in fusionerp-frontend,Implemented,FusionERP,2023-10-26,FF18-45,CST-0157
+FTR-0312,Request: Epic: Implement Redis cache layer for atlaspay-portal,Implemented,AtlasPay,2022-08-16,AP6-34,CST-0158
+FTR-0313,Request: Implement pagination for bulk queries in novacommerce-ui controller,Implemented,NovaCommerce,2022-09-03,NU1-153,CST-0159
+FTR-0314,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Implemented,NovaCommerce,2021-02-16,NC3-177,CST-0159
+FTR-0315,Request: Add feature request endpoint to fusionerp-core,Under Review,FusionERP,2024-11-01,FC16-72,CST-0160
+FTR-0316,Request: Epic: Use AWS ECS to deploy fusionerp-payroll to AWS,Implemented,FusionERP,2024-01-02,FP17-45,CST-0160
+FTR-0317,Request: Implement pagination for bulk queries in fusionerp-frontend controller,Implemented,FusionERP,2023-07-24,FF18-158,CST-0160
+FTR-0318,Request: Add feature request endpoint to fusionerp-frontend,Implemented,FusionERP,2025-01-02,FF18-179,CST-0161
+FTR-0319,Request: Refactor API request validation for atlaspay-portal,Implemented,AtlasPay,2023-10-21,AP6-178,CST-0161
+FTR-0320,Request: Optimize user session timeouts in fusionerp-payroll,Under Review,FusionERP,2024-05-30,FP17-186,CST-0162
+FTR-0321,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2023-05-29,VI13-177,CST-0162
+FTR-0322,Request: Add feature request endpoint to visionai-pipeline,Under Review,VisionAI,2023-07-13,VP15-104,CST-0162
+FTR-0323,Request: Refactor API request validation for visionai-pipeline,Under Review,VisionAI,2022-05-11,VP15-123,CST-0163
+FTR-0324,Request: Integrate metrics reporting client in fusionerp-core,Under Review,FusionERP,2023-08-07,FC16-71,CST-0164
+FTR-0325,Request: Epic: Adopt MySQL for novacommerce-api database storage,Implemented,NovaCommerce,2021-03-26,NA0-34,CST-0164
+FTR-0326,Request: Integrate metrics reporting client in novacommerce-cart,Implemented,NovaCommerce,2021-03-01,NC2-179,CST-0165
+FTR-0327,Request: Refactor API request validation for fusionerp-frontend,Implemented,FusionERP,2021-01-22,FF18-164,CST-0165
+FTR-0328,Request: Refactor API request validation for fusionerp-core,Under Review,FusionERP,2022-03-22,FC16-44,CST-0165
+FTR-0329,Request: Implement Kubernetes backend service in atlaspay-gateway,Implemented,AtlasPay,2024-01-12,AG4-44,CST-0166
+FTR-0330,Request: Implement pagination for bulk queries in cloudsync-storage controller,Implemented,CloudSync,2021-03-12,CS11-156,CST-0166
+FTR-0331,Request: Implement Angular backend service in atlaspay-gateway,Implemented,AtlasPay,2022-05-27,AG4-57,CST-0166
+FTR-0332,Request: Add feature request endpoint to insightcrm-ui,Implemented,InsightCRM,2022-02-07,IU8-146,CST-0167
+FTR-0333,Request: Refactor API request validation for insightcrm-api,Implemented,InsightCRM,2021-09-06,IA7-103,CST-0167
+FTR-0334,Request: Epic: Implement Redis cache layer for insightcrm-api,Implemented,InsightCRM,2025-10-12,IA7-31,CST-0167
+FTR-0335,Request: Epic: Migrate visionai-pipeline frontend architecture to Svelte,Implemented,VisionAI,2025-11-05,VP15-52,CST-0168
+FTR-0336,Request: Integrate metrics reporting client in visionai-training,Implemented,VisionAI,2023-04-08,VT14-126,CST-0168
+FTR-0337,Request: Implement pagination for bulk queries in visionai-pipeline controller,Implemented,VisionAI,2024-11-02,VP15-59,CST-0168
+FTR-0338,Request: Integrate metrics reporting client in novacommerce-api,Implemented,NovaCommerce,2025-06-06,NA0-51,CST-0169
+FTR-0339,Request: Implement DynamoDB backend service in novacommerce-ui,Implemented,NovaCommerce,2022-08-27,NU1-26,CST-0169
+FTR-0340,Request: Optimize user session timeouts in novacommerce-api,Implemented,NovaCommerce,2022-11-01,NA0-119,CST-0169
+FTR-0341,Request: Optimize user session timeouts in visionai-pipeline,Implemented,VisionAI,2021-10-18,VP15-118,CST-0170
+FTR-0342,Request: Implement Kubernetes backend service in visionai-inference,Implemented,VisionAI,2024-09-23,VI13-25,CST-0170
+FTR-0343,Request: Refactor API request validation for cloudsync-storage,Under Review,CloudSync,2024-06-07,CS11-115,CST-0171
+FTR-0344,Request: Integrate metrics reporting client in cloudsync-desktop,Implemented,CloudSync,2022-06-29,CD12-74,CST-0171
+FTR-0345,Request: Epic: Implement Memcached cache layer for novacommerce-ui,Under Review,NovaCommerce,2023-12-31,NU1-62,CST-0172
+FTR-0346,Request: Optimize user session timeouts in visionai-inference,Implemented,VisionAI,2021-11-03,VI13-180,CST-0172
+FTR-0347,Request: Implement NATS backend service in fusionerp-core,Implemented,FusionERP,2021-02-16,FC16-30,CST-0172
+FTR-0348,Request: Epic: Implement Redis cache layer for visionai-inference,Under Review,VisionAI,2021-03-01,VI13-36,CST-0173
+FTR-0349,Request: Implement pagination for bulk queries in insightcrm-ui controller,Implemented,InsightCRM,2022-09-20,IU8-135,CST-0174
+FTR-0350,Request: Integrate metrics reporting client in atlaspay-portal,Under Review,AtlasPay,2021-03-31,AP6-90,CST-0175
+FTR-0351,Request: Integrate metrics reporting client in insightcrm-ui,Implemented,InsightCRM,2023-08-15,IU8-180,CST-0176
+FTR-0352,Request: Implement Redis backend service in cloudsync-daemon,Implemented,CloudSync,2024-04-29,CD10-57,CST-0176
+FTR-0353,Request: Refactor API request validation for fusionerp-payroll,Implemented,FusionERP,2021-03-18,FP17-195,CST-0177
+FTR-0354,Request: Epic: Migrate visionai-pipeline frontend architecture to Svelte,Implemented,VisionAI,2023-07-16,VP15-52,CST-0177
+FTR-0355,Request: Implement pagination for bulk queries in visionai-pipeline controller,Implemented,VisionAI,2025-01-09,VP15-94,CST-0177
+FTR-0356,Request: Implement pagination for bulk queries in cloudsync-desktop controller,Implemented,CloudSync,2023-04-12,CD12-114,CST-0178
+FTR-0357,Request: Integrate metrics reporting client in cloudsync-storage,Implemented,CloudSync,2022-08-02,CS11-137,CST-0178
+FTR-0358,Request: Refactor API request validation for novacommerce-ui,Implemented,NovaCommerce,2024-08-08,NU1-121,CST-0179
+FTR-0359,Request: Integrate metrics reporting client in visionai-inference,Under Review,VisionAI,2021-08-08,VI13-97,CST-0179
+FTR-0360,Request: Epic: Migrate visionai-inference frontend architecture to Vue.js,Implemented,VisionAI,2021-08-16,VI13-66,CST-0180
+FTR-0361,Request: Implement pagination for bulk queries in insightcrm-ui controller,Under Review,InsightCRM,2022-11-27,IU8-96,CST-0181
+FTR-0362,Request: Implement Svelte backend service in novacommerce-checkout,Implemented,NovaCommerce,2021-11-04,NC3-39,CST-0182
+FTR-0363,Request: Implement pagination for bulk queries in novacommerce-checkout controller,Under Review,NovaCommerce,2021-11-16,NC3-183,CST-0182
+FTR-0364,Request: Implement pagination for bulk queries in fusionerp-core controller,Implemented,FusionERP,2024-01-16,FC16-144,CST-0183
+FTR-0365,Request: Implement pagination for bulk queries in fusionerp-frontend controller,Implemented,FusionERP,2021-02-19,FF18-167,CST-0183
+FTR-0366,Request: Optimize user session timeouts in novacommerce-ui,Under Review,NovaCommerce,2025-12-03,NU1-86,CST-0184
+FTR-0367,Request: Epic: Migrate atlaspay-gateway frontend architecture to Vue.js,Implemented,AtlasPay,2021-04-08,AG4-48,CST-0184
+FTR-0368,Request: Implement pagination for bulk queries in novacommerce-api controller,Implemented,NovaCommerce,2023-10-25,NA0-91,CST-0184
+FTR-0369,Request: Integrate metrics reporting client in fusionerp-core,Implemented,FusionERP,2024-07-23,FC16-47,CST-0185
+FTR-0370,Request: Integrate metrics reporting client in fusionerp-core,Implemented,FusionERP,2022-03-15,FC16-47,CST-0185
+FTR-0371,Request: Integrate metrics reporting client in fusionerp-frontend,Implemented,FusionERP,2024-04-28,FF18-84,CST-0185
+FTR-0372,Request: Optimize user session timeouts in cloudsync-desktop,Implemented,CloudSync,2024-08-21,CD12-68,CST-0186
+FTR-0373,Request: Epic: Implement Redis cache layer for visionai-training,Implemented,VisionAI,2021-12-15,VT14-22,CST-0187
+FTR-0374,Request: Integrate metrics reporting client in visionai-pipeline,Implemented,VisionAI,2022-01-20,VP15-159,CST-0187
+FTR-0375,Request: Integrate metrics reporting client in visionai-inference,Implemented,VisionAI,2024-10-04,VI13-146,CST-0187
+FTR-0376,Request: Add feature request endpoint to novacommerce-cart,Implemented,NovaCommerce,2021-05-16,NC2-169,CST-0188
+FTR-0377,Request: Implement React / Next.js backend service in novacommerce-api,Implemented,NovaCommerce,2022-03-18,NA0-38,CST-0188
+FTR-0378,Request: Implement pagination for bulk queries in novacommerce-ui controller,Implemented,NovaCommerce,2023-02-13,NU1-104,CST-0189
+FTR-0379,Request: Implement Nomad backend service in novacommerce-cart,Implemented,NovaCommerce,2022-11-13,NC2-12,CST-0189
+FTR-0380,Request: Implement Angular backend service in visionai-training,Implemented,VisionAI,2023-08-19,VT14-32,CST-0190
+FTR-0381,Request: Implement Kubernetes backend service in atlaspay-ledger,Implemented,AtlasPay,2025-02-02,AL5-17,CST-0191
+FTR-0382,Request: Epic: Migrate atlaspay-gateway frontend architecture to Vue.js,Implemented,AtlasPay,2025-07-29,AG4-48,CST-0191
+FTR-0383,Request: Refactor API request validation for cloudsync-storage,Implemented,CloudSync,2023-08-03,CS11-88,CST-0192
+FTR-0384,Request: Refactor API request validation for novacommerce-api,Implemented,NovaCommerce,2022-01-31,NA0-46,CST-0193
+FTR-0385,Request: Epic: Adopt MongoDB for cloudsync-storage database storage,Implemented,CloudSync,2024-05-19,CS11-67,CST-0194
+FTR-0386,Request: Epic: Use AWS ECS to deploy cloudsync-storage to AWS,Implemented,CloudSync,2022-12-16,CS11-15,CST-0194
+FTR-0387,Request: Integrate metrics reporting client in novacommerce-checkout,Implemented,NovaCommerce,2021-12-10,NC3-72,CST-0195
+FTR-0388,Request: Implement DynamoDB backend service in atlaspay-gateway,Implemented,AtlasPay,2021-05-20,AG4-76,CST-0195
+FTR-0389,Request: Implement Kubernetes backend service in atlaspay-ledger,Implemented,AtlasPay,2021-01-12,AL5-17,CST-0195
+FTR-0390,Request: Epic: Adopt MongoDB for cloudsync-storage database storage,Under Review,CloudSync,2021-03-09,CS11-45,CST-0196
+FTR-0391,Request: Epic: Migrate visionai-inference frontend architecture to Vue.js,Implemented,VisionAI,2022-12-05,VI13-66,CST-0197
+FTR-0392,Request: Refactor API request validation for visionai-inference,Implemented,VisionAI,2022-12-28,VI13-88,CST-0197
+FTR-0393,Request: Integrate metrics reporting client in cloudsync-daemon,Implemented,CloudSync,2023-04-20,CD10-173,CST-0198
+FTR-0394,Request: Optimize user session timeouts in fusionerp-core,Implemented,FusionERP,2024-05-26,FC16-37,CST-0199
+FTR-0395,Request: Epic: Adopt MongoDB for cloudsync-storage database storage,Implemented,CloudSync,2025-01-02,CS11-39,CST-0199
+FTR-0396,Request: Optimize user session timeouts in fusionerp-core,Under Review,FusionERP,2021-10-06,FC16-43,CST-0200
+FTR-0397,Request: Add feature request endpoint to fusionerp-core,Implemented,FusionERP,2021-05-10,FC16-67,CST-0200

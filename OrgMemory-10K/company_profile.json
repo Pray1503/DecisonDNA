@@ -1,0 +1,37 @@
+{
+  "company_name": "NovaTech Solutions",
+  "industry": "Enterprise SaaS",
+  "departments": [
+    "Backend Engineering",
+    "Frontend Engineering",
+    "Platform Engineering",
+    "AI Research",
+    "DevOps",
+    "Security",
+    "Product",
+    "Customer Success"
+  ],
+  "products": [
+    "NovaCommerce",
+    "AtlasPay",
+    "InsightCRM",
+    "CloudSync",
+    "VisionAI",
+    "FusionERP"
+  ],
+  "repositories": [
+    "novacommerce-core",
+    "novacommerce-web",
+    "atlaspay-backend",
+    "atlaspay-frontend",
+    "insightcrm-core",
+    "insightcrm-web",
+    "cloudsync-core",
+    "cloudsync-apps",
+    "visionai-engine",
+    "fusionerp-monolith",
+    "platform-infra",
+    "security-tools"
+  ],
+  "simulation_period": "January 2021 - December 2025"
+}

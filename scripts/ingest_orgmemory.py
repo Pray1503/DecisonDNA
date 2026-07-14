@@ -82,7 +82,7 @@ def main():
     # --------------------------------------------------
     # PATHS CONFIGURATION
     # --------------------------------------------------
-    dataset_dir = Path("D:/dataset generator/OrgMemory-10K")
+    dataset_dir = Path(__file__).parent.parent / "OrgMemory-10K"
     output_dir = Path("data/normalized")
     output_file = output_dir / "artifacts.jsonl"
 

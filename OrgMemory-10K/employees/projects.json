@@ -1,0 +1,526 @@
+[
+  {
+    "project_id": "PRJ-001",
+    "name": "novacommerce-api",
+    "owner": "EMP-223",
+    "repository": "novacommerce-core",
+    "jira_project": {
+      "key": "NA0",
+      "name": "Novacommerce Api"
+    },
+    "technology_stack": [
+      "Go",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "team": "Core Commerce",
+    "timeline": {
+      "start_date": "2022-06-29",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-002",
+    "name": "novacommerce-ui",
+    "owner": "EMP-029",
+    "repository": "novacommerce-web",
+    "jira_project": {
+      "key": "NU1",
+      "name": "Novacommerce Ui"
+    },
+    "technology_stack": [
+      "React",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "team": "Commerce Frontend",
+    "timeline": {
+      "start_date": "2020-03-05",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-003",
+    "name": "novacommerce-cart",
+    "owner": "EMP-039",
+    "repository": "novacommerce-core",
+    "jira_project": {
+      "key": "NC2",
+      "name": "Novacommerce Cart"
+    },
+    "technology_stack": [
+      "Node.js",
+      "Redis"
+    ],
+    "team": "Core Commerce",
+    "timeline": {
+      "start_date": "2021-08-22",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-004",
+    "name": "novacommerce-checkout",
+    "owner": "EMP-039",
+    "repository": "novacommerce-core",
+    "jira_project": {
+      "key": "NC3",
+      "name": "Novacommerce Checkout"
+    },
+    "technology_stack": [
+      "Go",
+      "Kafka"
+    ],
+    "team": "Core Commerce",
+    "timeline": {
+      "start_date": "2021-08-15",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-005",
+    "name": "atlaspay-gateway",
+    "owner": "EMP-207",
+    "repository": "atlaspay-backend",
+    "jira_project": {
+      "key": "AG4",
+      "name": "Atlaspay Gateway"
+    },
+    "technology_stack": [
+      "Go",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "team": "Payments Platform",
+    "timeline": {
+      "start_date": "2022-10-12",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-006",
+    "name": "atlaspay-ledger",
+    "owner": "EMP-083",
+    "repository": "atlaspay-backend",
+    "jira_project": {
+      "key": "AL5",
+      "name": "Atlaspay Ledger"
+    },
+    "technology_stack": [
+      "Go",
+      "PostgreSQL",
+      "Cassandra"
+    ],
+    "team": "Payments Platform",
+    "timeline": {
+      "start_date": "2020-08-22",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-007",
+    "name": "atlaspay-portal",
+    "owner": "EMP-107",
+    "repository": "atlaspay-frontend",
+    "jira_project": {
+      "key": "AP6",
+      "name": "Atlaspay Portal"
+    },
+    "technology_stack": [
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "team": "Portal Frontend",
+    "timeline": {
+      "start_date": "2022-01-22",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-008",
+    "name": "insightcrm-api",
+    "owner": "EMP-012",
+    "repository": "insightcrm-core",
+    "jira_project": {
+      "key": "IA7",
+      "name": "Insightcrm Api"
+    },
+    "technology_stack": [
+      "Python",
+      "FastAPI",
+      "MongoDB"
+    ],
+    "team": "CRM Backend",
+    "timeline": {
+      "start_date": "2022-06-23",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-009",
+    "name": "insightcrm-ui",
+    "owner": "EMP-197",
+    "repository": "insightcrm-web",
+    "jira_project": {
+      "key": "IU8",
+      "name": "Insightcrm Ui"
+    },
+    "technology_stack": [
+      "React",
+      "Vite"
+    ],
+    "team": "CRM Web",
+    "timeline": {
+      "start_date": "2020-07-29",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-010",
+    "name": "insightcrm-analytics",
+    "owner": "EMP-119",
+    "repository": "insightcrm-core",
+    "jira_project": {
+      "key": "IA9",
+      "name": "Insightcrm Analytics"
+    },
+    "technology_stack": [
+      "Python",
+      "Spark",
+      "Redis"
+    ],
+    "team": "CRM Backend",
+    "timeline": {
+      "start_date": "2021-09-02",
+      "end_date": "2022-03-17"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-011",
+    "name": "cloudsync-daemon",
+    "owner": "EMP-204",
+    "repository": "cloudsync-core",
+    "jira_project": {
+      "key": "CD10",
+      "name": "Cloudsync Daemon"
+    },
+    "technology_stack": [
+      "Go",
+      "gRPC"
+    ],
+    "team": "Storage Engine",
+    "timeline": {
+      "start_date": "2021-06-23",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-012",
+    "name": "cloudsync-storage",
+    "owner": "EMP-044",
+    "repository": "cloudsync-core",
+    "jira_project": {
+      "key": "CS11",
+      "name": "Cloudsync Storage"
+    },
+    "technology_stack": [
+      "Go",
+      "S3",
+      "Cassandra"
+    ],
+    "team": "Storage Engine",
+    "timeline": {
+      "start_date": "2022-06-19",
+      "end_date": "2023-02-14"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-013",
+    "name": "cloudsync-desktop",
+    "owner": "EMP-106",
+    "repository": "cloudsync-apps",
+    "jira_project": {
+      "key": "CD12",
+      "name": "Cloudsync Desktop"
+    },
+    "technology_stack": [
+      "Electron",
+      "React",
+      "TypeScript"
+    ],
+    "team": "Desktop Sync Frontend",
+    "timeline": {
+      "start_date": "2021-03-06",
+      "end_date": "2022-06-30"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-014",
+    "name": "visionai-inference",
+    "owner": "EMP-244",
+    "repository": "visionai-engine",
+    "jira_project": {
+      "key": "VI13",
+      "name": "Visionai Inference"
+    },
+    "technology_stack": [
+      "Python",
+      "PyTorch",
+      "C++",
+      "gRPC"
+    ],
+    "team": "Vision Intelligence",
+    "timeline": {
+      "start_date": "2021-12-20",
+      "end_date": "2023-04-26"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-015",
+    "name": "visionai-training",
+    "owner": "EMP-173",
+    "repository": "visionai-engine",
+    "jira_project": {
+      "key": "VT14",
+      "name": "Visionai Training"
+    },
+    "technology_stack": [
+      "Python",
+      "PyTorch",
+      "CUDA"
+    ],
+    "team": "Training Pipelines",
+    "timeline": {
+      "start_date": "2020-12-06",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-016",
+    "name": "visionai-pipeline",
+    "owner": "EMP-075",
+    "repository": "visionai-engine",
+    "jira_project": {
+      "key": "VP15",
+      "name": "Visionai Pipeline"
+    },
+    "technology_stack": [
+      "Go",
+      "Kafka",
+      "S3"
+    ],
+    "team": "Infra Foundations",
+    "timeline": {
+      "start_date": "2021-02-28",
+      "end_date": "2022-06-14"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-017",
+    "name": "fusionerp-core",
+    "owner": "EMP-149",
+    "repository": "fusionerp-monolith",
+    "jira_project": {
+      "key": "FC16",
+      "name": "Fusionerp Core"
+    },
+    "technology_stack": [
+      "Java",
+      "Spring Boot",
+      "Oracle"
+    ],
+    "team": "ERP Core",
+    "timeline": {
+      "start_date": "2022-12-27",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-018",
+    "name": "fusionerp-payroll",
+    "owner": "EMP-215",
+    "repository": "fusionerp-monolith",
+    "jira_project": {
+      "key": "FP17",
+      "name": "Fusionerp Payroll"
+    },
+    "technology_stack": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL"
+    ],
+    "team": "ERP Core",
+    "timeline": {
+      "start_date": "2020-12-11",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-019",
+    "name": "fusionerp-frontend",
+    "owner": "EMP-122",
+    "repository": "fusionerp-monolith",
+    "jira_project": {
+      "key": "FF18",
+      "name": "Fusionerp Frontend"
+    },
+    "technology_stack": [
+      "Angular",
+      "TypeScript"
+    ],
+    "team": "ERP UI",
+    "timeline": {
+      "start_date": "2021-08-16",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-020",
+    "name": "platform-k8s-mesh",
+    "owner": "EMP-063",
+    "repository": "platform-infra",
+    "jira_project": {
+      "key": "PKM",
+      "name": "Platform K8S Mesh"
+    },
+    "technology_stack": [
+      "Terraform",
+      "Kubernetes",
+      "Istio",
+      "AWS"
+    ],
+    "team": "Network Mesh",
+    "timeline": {
+      "start_date": "2020-10-05",
+      "end_date": "2021-10-30"
+    },
+    "status": "Archived"
+  },
+  {
+    "project_id": "PRJ-021",
+    "name": "platform-logging",
+    "owner": "EMP-026",
+    "repository": "platform-infra",
+    "jira_project": {
+      "key": "PL20",
+      "name": "Platform Logging"
+    },
+    "technology_stack": [
+      "Elasticsearch",
+      "Logstash",
+      "Kibana",
+      "AWS"
+    ],
+    "team": "Observability Operations",
+    "timeline": {
+      "start_date": "2021-07-22",
+      "end_date": "2022-03-23"
+    },
+    "status": "Completed"
+  },
+  {
+    "project_id": "PRJ-022",
+    "name": "platform-monitoring",
+    "owner": "EMP-100",
+    "repository": "platform-infra",
+    "jira_project": {
+      "key": "PM21",
+      "name": "Platform Monitoring"
+    },
+    "technology_stack": [
+      "Prometheus",
+      "Grafana",
+      "AWS"
+    ],
+    "team": "Observability Operations",
+    "timeline": {
+      "start_date": "2021-05-27",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-023",
+    "name": "security-auth-proxy",
+    "owner": "EMP-143",
+    "repository": "security-tools",
+    "jira_project": {
+      "key": "SAP",
+      "name": "Security Auth Proxy"
+    },
+    "technology_stack": [
+      "Go",
+      "OAuth2",
+      "Redis",
+      "OIDC"
+    ],
+    "team": "Identity & Access Management",
+    "timeline": {
+      "start_date": "2021-05-22",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-024",
+    "name": "security-scanner",
+    "owner": "EMP-164",
+    "repository": "security-tools",
+    "jira_project": {
+      "key": "SS23",
+      "name": "Security Scanner"
+    },
+    "technology_stack": [
+      "Python",
+      "Static Analysis",
+      "Docker"
+    ],
+    "team": "SecOps",
+    "timeline": {
+      "start_date": "2022-09-30",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  },
+  {
+    "project_id": "PRJ-025",
+    "name": "devops-ci-cd",
+    "owner": "EMP-201",
+    "repository": "platform-infra",
+    "jira_project": {
+      "key": "DCC",
+      "name": "Devops Ci Cd"
+    },
+    "technology_stack": [
+      "GitHub Actions",
+      "Python",
+      "Docker"
+    ],
+    "team": "Developer Platform",
+    "timeline": {
+      "start_date": "2021-07-05",
+      "end_date": "Ongoing"
+    },
+    "status": "Active"
+  }
+]

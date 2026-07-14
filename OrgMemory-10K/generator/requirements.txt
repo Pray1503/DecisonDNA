@@ -1,0 +1,7 @@
+faker
+pandas
+numpy
+jinja2
+networkx
+pyyaml
+rich

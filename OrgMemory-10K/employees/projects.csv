@@ -1,0 +1,26 @@
+project_id,name,owner,repository,technology_stack,team,status,jira_project_key,jira_project_name,start_date,end_date
+PRJ-001,novacommerce-api,EMP-223,novacommerce-core,"[""Go"", ""PostgreSQL"", ""Redis""]",Core Commerce,Active,NA0,Novacommerce Api,2022-06-29,Ongoing
+PRJ-002,novacommerce-ui,EMP-029,novacommerce-web,"[""React"", ""Next.js"", ""TailwindCSS""]",Commerce Frontend,Active,NU1,Novacommerce Ui,2020-03-05,Ongoing
+PRJ-003,novacommerce-cart,EMP-039,novacommerce-core,"[""Node.js"", ""Redis""]",Core Commerce,Active,NC2,Novacommerce Cart,2021-08-22,Ongoing
+PRJ-004,novacommerce-checkout,EMP-039,novacommerce-core,"[""Go"", ""Kafka""]",Core Commerce,Active,NC3,Novacommerce Checkout,2021-08-15,Ongoing
+PRJ-005,atlaspay-gateway,EMP-207,atlaspay-backend,"[""Go"", ""PostgreSQL"", ""Kafka""]",Payments Platform,Active,AG4,Atlaspay Gateway,2022-10-12,Ongoing
+PRJ-006,atlaspay-ledger,EMP-083,atlaspay-backend,"[""Go"", ""PostgreSQL"", ""Cassandra""]",Payments Platform,Active,AL5,Atlaspay Ledger,2020-08-22,Ongoing
+PRJ-007,atlaspay-portal,EMP-107,atlaspay-frontend,"[""React"", ""TypeScript"", ""Vite""]",Portal Frontend,Active,AP6,Atlaspay Portal,2022-01-22,Ongoing
+PRJ-008,insightcrm-api,EMP-012,insightcrm-core,"[""Python"", ""FastAPI"", ""MongoDB""]",CRM Backend,Active,IA7,Insightcrm Api,2022-06-23,Ongoing
+PRJ-009,insightcrm-ui,EMP-197,insightcrm-web,"[""React"", ""Vite""]",CRM Web,Active,IU8,Insightcrm Ui,2020-07-29,Ongoing
+PRJ-010,insightcrm-analytics,EMP-119,insightcrm-core,"[""Python"", ""Spark"", ""Redis""]",CRM Backend,Completed,IA9,Insightcrm Analytics,2021-09-02,2022-03-17
+PRJ-011,cloudsync-daemon,EMP-204,cloudsync-core,"[""Go"", ""gRPC""]",Storage Engine,Active,CD10,Cloudsync Daemon,2021-06-23,Ongoing
+PRJ-012,cloudsync-storage,EMP-044,cloudsync-core,"[""Go"", ""S3"", ""Cassandra""]",Storage Engine,Completed,CS11,Cloudsync Storage,2022-06-19,2023-02-14
+PRJ-013,cloudsync-desktop,EMP-106,cloudsync-apps,"[""Electron"", ""React"", ""TypeScript""]",Desktop Sync Frontend,Completed,CD12,Cloudsync Desktop,2021-03-06,2022-06-30
+PRJ-014,visionai-inference,EMP-244,visionai-engine,"[""Python"", ""PyTorch"", ""C++"", ""gRPC""]",Vision Intelligence,Completed,VI13,Visionai Inference,2021-12-20,2023-04-26
+PRJ-015,visionai-training,EMP-173,visionai-engine,"[""Python"", ""PyTorch"", ""CUDA""]",Training Pipelines,Active,VT14,Visionai Training,2020-12-06,Ongoing
+PRJ-016,visionai-pipeline,EMP-075,visionai-engine,"[""Go"", ""Kafka"", ""S3""]",Infra Foundations,Completed,VP15,Visionai Pipeline,2021-02-28,2022-06-14
+PRJ-017,fusionerp-core,EMP-149,fusionerp-monolith,"[""Java"", ""Spring Boot"", ""Oracle""]",ERP Core,Active,FC16,Fusionerp Core,2022-12-27,Ongoing
+PRJ-018,fusionerp-payroll,EMP-215,fusionerp-monolith,"[""Java"", ""Spring Boot"", ""PostgreSQL""]",ERP Core,Active,FP17,Fusionerp Payroll,2020-12-11,Ongoing
+PRJ-019,fusionerp-frontend,EMP-122,fusionerp-monolith,"[""Angular"", ""TypeScript""]",ERP UI,Active,FF18,Fusionerp Frontend,2021-08-16,Ongoing
+PRJ-020,platform-k8s-mesh,EMP-063,platform-infra,"[""Terraform"", ""Kubernetes"", ""Istio"", ""AWS""]",Network Mesh,Archived,PKM,Platform K8S Mesh,2020-10-05,2021-10-30
+PRJ-021,platform-logging,EMP-026,platform-infra,"[""Elasticsearch"", ""Logstash"", ""Kibana"", ""AWS""]",Observability Operations,Completed,PL20,Platform Logging,2021-07-22,2022-03-23
+PRJ-022,platform-monitoring,EMP-100,platform-infra,"[""Prometheus"", ""Grafana"", ""AWS""]",Observability Operations,Active,PM21,Platform Monitoring,2021-05-27,Ongoing
+PRJ-023,security-auth-proxy,EMP-143,security-tools,"[""Go"", ""OAuth2"", ""Redis"", ""OIDC""]",Identity & Access Management,Active,SAP,Security Auth Proxy,2021-05-22,Ongoing
+PRJ-024,security-scanner,EMP-164,security-tools,"[""Python"", ""Static Analysis"", ""Docker""]",SecOps,Active,SS23,Security Scanner,2022-09-30,Ongoing
+PRJ-025,devops-ci-cd,EMP-201,platform-infra,"[""GitHub Actions"", ""Python"", ""Docker""]",Developer Platform,Active,DCC,Devops Ci Cd,2021-07-05,Ongoing

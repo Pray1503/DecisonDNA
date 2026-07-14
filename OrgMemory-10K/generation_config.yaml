@@ -1,0 +1,17 @@
+generation_date: '2026-07-10 12:35:51'
+scale: large
+seed: 42
+parameters:
+  employees: 250
+  projects: 25
+  adrs: 500
+  jira_tickets: 5000
+  commits: 20000
+  pull_requests: 2000
+  releases: 500
+  meetings: 500
+  deployments: 750
+  incidents: 1000
+  feedback: 5000
+  customers: 200
+  benchmark_questions: 1000

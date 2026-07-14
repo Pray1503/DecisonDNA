@@ -363,6 +363,7 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
                 return data["candidates"][0]["content"]["parts"][0]["text"].strip()
             except Exception as e:
                 print(f"Gemini generate_text failed: {e}")
+                raise e
 
         elif self.groq_key:
             url = "https://api.groq.com/openai/v1/chat/completions"
@@ -382,6 +383,7 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
                 return data["choices"][0]["message"]["content"].strip()
             except Exception as e:
                 print(f"Groq generate_text failed: {e}")
+                raise e
 
         elif self.openai_key:
             url = "https://api.openai.com/v1/chat/completions"
@@ -401,8 +403,9 @@ Return ONLY the JSON. Do not include markdown codeblocks or conversational text.
                 return data["choices"][0]["message"]["content"].strip()
             except Exception as e:
                 print(f"OpenAI generate_text failed: {e}")
+                raise e
 
-        # Local conversational fallback
+        # Local conversational fallback (when no API keys are configured at all)
         p_lower = prompt.lower()
         if any(w in p_lower for w in ["hello", "hi", "hey", "greetings", "good morning", "good afternoon"]):
             return "Hello! I am your DecisionDNA AI assistant. How can I help you trace architectural decisions or explore engineering evidence today?"

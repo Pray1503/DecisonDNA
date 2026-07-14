@@ -1,0 +1,25 @@
+{
+  "dataset_name": "OrgMemory-10K",
+  "description": "Synthetic enterprise dataset representing a software company history over 5 years",
+  "statistics": {
+    "employees": 250,
+    "projects": 25,
+    "adrs": 500,
+    "jira_tickets": 5000,
+    "commits": 20028,
+    "pull_requests": 2000,
+    "releases": 557,
+    "deployments": 750,
+    "incidents": 360,
+    "meetings": 510,
+    "feedback_entries": 5000,
+    "customers": 200,
+    "support_tickets": 610,
+    "feature_requests": 397,
+    "benchmark_questions": 1000
+  },
+  "graph_metrics": {
+    "nodes": 35620,
+    "edges": 55960
+  }
+}
